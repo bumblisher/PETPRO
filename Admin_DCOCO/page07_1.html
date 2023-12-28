@@ -88,15 +88,28 @@
             </header>
             <div class="tab_main">
                 <ul class="tab_main_list">
-                    <li><a href="#" class="on">광고 소재 등록</a><button class="close"></button></li>
+                    <li><a href="#" class="on">입고 등록</a><button class="close"></button></li>
                 </ul>
                 <div class="tit_main">
-                    <h2>광고 소재 등록</h2>
+                    <h2>입고 등록</h2>
+                    <p>기기 관리 입고를 조회하고 관리합니다.</p>
+                    <div class="right">
+                        <button class="btn_cm">조회하기</button>
+                    </div>
                 </div>
                 <div class="content">
                     <div class="box_form">
                         <div class="grp_form">
-                            <h3>광고 소재 등록</h3>
+                            <h3>메인기기</h3>
+                            <div class="cont">
+                                <p class="tit">광고파트너</p>
+                                <select type="text">
+                                    <option value="">선택</option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
                             <div class="cont">
                                 <p class="tit">광고종류</p>
                                 <select type="text">
@@ -107,7 +120,7 @@
                                 </select>
                             </div>
                             <div class="cont">
-                                <p class="tit">광고주</p>
+                                <p class="tit">광고 시작 시간</p>
                                 <select type="text">
                                     <option value="">선택</option>
                                     <option value="">option01</option>
@@ -116,25 +129,7 @@
                                 </select>
                             </div>
                             <div class="cont">
-                                <p class="tit">태블릿 광고여부<br>
-                                    <span class="sub">(962*602)</span></p>
-                                <div class="grp_radio">
-                                    <input type="radio" name="radio01" id="radio01" checked>
-                                    <label for="radio01">예</label>
-                                    <input type="radio" name="radio01" id="radio02">
-                                    <label for="radio02">아니오</label>
-                                </div>
-                            </div>
-                            <div class="cont">
-                                <p class="tit">광고상품명</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">부제목</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">발주처</p>
+                                <p class="tit">광고 종료 시간</p>
                                 <select type="text">
                                     <option value="">선택</option>
                                     <option value="">option01</option>
@@ -143,7 +138,7 @@
                                 </select>
                             </div>
                             <div class="cont">
-                                <p class="tit">리워드 상품명</p>
+                                <p class="tit">광고 노출 시간</p>
                                 <select type="text">
                                     <option value="">선택</option>
                                     <option value="">option01</option>
@@ -152,60 +147,48 @@
                                 </select>
                             </div>
                             <div class="cont">
-                                <p class="tit">리워드 단가</p>
-                                <input type="text">
+                                <p class="tit">광고 노출 수</p>
+                                <select type="text">
+                                    <option value="">선택</option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
                             </div>
+                            <h3>대기화면 선택</h3>
                             <div class="cont">
-                                <p class="tit">배너<br><span class="sub">(662*602)</span></p>
+                                <p class="tit">대기화면<br><span class="sub">(662*602)</span></p>
                                 <div class="ipt_file">
                                     <input type="text" placeholder="파일을 선택해 주세요.">
                                     <button class="btn_file"></button>
                                 </div>
                             </div>
                             <div class="cont">
-                                <p class="tit">랜딩페이지</p>
-                                <input type="text" placeholder="URL을 입력해 주세요.">
+                                <p class="tit">대기화면<br><span class="sub">(662*602)</span></p>
+                                <div class="ipt_file">
+                                    <input type="text" placeholder="파일을 선택해 주세요.">
+                                    <button class="btn_file"></button>
+                                </div>
                             </div>
                             <div class="cont">
-                                <p class="tit">코드생성</p>
+                                <p class="tit">대기화면<br><span class="sub">(662*602)</span></p>
+                                <div class="ipt_file">
+                                    <input type="text" placeholder="파일을 선택해 주세요.">
+                                    <button class="btn_file"></button>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 URL 생성</p>
                                 <div class="grp_flex">
-                                    <input type="text" placeholder="코드 생성하기를 눌러주세요.">
-                                    <button class="btn_cm yellow">코드 생성하기</button>
+                                    <input type="text" placeholder="생성하기를 눌러주세요.">
+                                    <button class="btn_cm yellow">URL 생성하기</button>
                                 </div>
                             </div>
                         </div>
                         <div class="grp_form">
-                            <h3>CPA 상세</h3>
+                            <h3>1. 광고 정보</h3>
                             <div class="cont">
-                                <p class="tit">광고 단가</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">광고 파트너 단가</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">광고 대행사 단가</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">본사 이익</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">발주 수량</p>
-                                <select type="text">
-                                    <option value="">선택</option>
-                                    <option value="">option01</option>
-                                    <option value="">option02</option>
-                                    <option value="">option03</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="grp_form">
-                            <h3>CPM 상세</h3>
-                            <div class="cont">
-                                <p class="tit">광고 노출 단위</p>
+                                <p class="tit">광고파트너</p>
                                 <select type="text">
                                     <option value="">선택</option>
                                     <option value="">option01</option>
@@ -214,25 +197,78 @@
                                 </select>
                             </div>
                             <div class="cont">
-                                <p class="tit">광고 노출 단가</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">광고 파트너 비용</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">본사 수익 입력</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">광고 기간</p>
+                                <p class="tit">광고종류</p>
                                 <select type="text">
                                     <option value="">선택</option>
                                     <option value="">option01</option>
                                     <option value="">option02</option>
                                     <option value="">option03</option>
                                 </select>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 시작 시간</p>
+                                <select type="text">
+                                    <option value="">선택</option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 종료 시간</p>
+                                <select type="text">
+                                    <option value="">선택</option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 노출 시간</p>
+                                <select type="text">
+                                    <option value="">선택</option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 노출 수</p>
+                                <select type="text">
+                                    <option value="">선택</option>
+                                    <option value="">option01</option>
+                                    <option value="">option02</option>
+                                    <option value="">option03</option>
+                                </select>
+                            </div>
+                            <h3>대기화면 선택</h3>
+                            <div class="cont">
+                                <p class="tit">대기화면<br><span class="sub">(662*602)</span></p>
+                                <div class="ipt_file">
+                                    <input type="text" placeholder="파일을 선택해 주세요.">
+                                    <button class="btn_file"></button>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">대기화면<br><span class="sub">(662*602)</span></p>
+                                <div class="ipt_file">
+                                    <input type="text" placeholder="파일을 선택해 주세요.">
+                                    <button class="btn_file"></button>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">대기화면<br><span class="sub">(662*602)</span></p>
+                                <div class="ipt_file">
+                                    <input type="text" placeholder="파일을 선택해 주세요.">
+                                    <button class="btn_file"></button>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 URL 생성</p>
+                                <div class="grp_flex">
+                                    <input type="text" placeholder="생성하기를 눌러주세요.">
+                                    <button class="btn_cm yellow">URL 생성하기</button>
+                                </div>
                             </div>
                         </div>
                     </div>

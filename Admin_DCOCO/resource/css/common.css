@@ -223,6 +223,8 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .box_form .grp_form .box_inner{flex:1;border:1px solid #D9D9D9;border-radius: 4px;padding:20px;opacity: 0.7;}
 .box_form .grp_form .box_inner+.box_inner{margin-left: 16px;}
 .box_form .grp_form .box_inner.on{opacity: 1;}
+.box_form .grp_form.group{flex-direction: row;}
+.box_form .grp_form.group > .grp_form{padding:0}
 .box_form +.box_form{margin-top: 50px;}
 .box_form.bt{padding:45px 20px 15px;margin: 45px -20px 0;border-top: 1px solid #8C8C8C;}
 .box_form.bt .txt_total{font-size: 26px;font-weight: 700;color:#495057;}
