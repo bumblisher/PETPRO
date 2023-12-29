@@ -218,6 +218,7 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .box_form .grp_form .cont:last-child{border-bottom: 0;padding-bottom: 0;}
 .box_form .grp_form .cont + h3{margin-top: 20px;}
 .box_form .grp_form .cont .grp_flex .tit+*{margin-left: 0;}
+.box_form .grp_form .cont.txt{padding-bottom: 0;border-bottom: 0;}
 .box_form .grp_form.bl{margin-left: 30px;padding-left: 30px;border-left: 1px solid #F1F3F5;}
 .box_form .grp_form .box{display: flex;}
 .box_form .grp_form .box_inner{flex:1;border:1px solid #D9D9D9;border-radius: 4px;padding:20px;opacity: 0.7;}
@@ -255,6 +256,7 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .grp_form .cont .tit.wide { width:195px } 
 .grp_form .cont .tit.vat{align-self: baseline;padding-top: 11px;}
 .grp_form .cont .tit .sub{font-size: 13px;font-weight: 700;}
+.grp_form .cont p.txt{font-weight: 400;font-size: 13px;color:#232323}
 .grp_form .cont input[type="text"],
 .grp_form .cont input[type="password"],
 .grp_form .cont select,
