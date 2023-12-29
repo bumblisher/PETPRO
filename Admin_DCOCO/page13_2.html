@@ -1,0 +1,206 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resource/css/reset.css">
+    <link rel="stylesheet" href="resource/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="resource/js/main.js"></script>
+    <title>DCOCO</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <aside>
+            <h1 class="logo"><a href="#">DCOCO</a></h1>
+            <div class="grp_nav_noti">
+                <p class="tit">Notice</p>
+                <a href="#" class="btn_more">more</a>
+            </div>
+            <ul class="nav_noti">
+                <li><a href="#">최근 공지 1</a></li>
+                <li><a href="#">최근 공지 2</a></li>
+            </ul>
+            <div class="grp_nav_noti">
+                <p class="tit">Menu</p>
+            </div>
+            <ul class="nav_menu">
+                <li class="active">
+                    <a href="#">Member</a>
+                    <ul>
+                        <li><a href="#">광고주 등록 및 수정</a></li>
+                        <li class="on"><a href="#">광고파트너 등록 및 수정</a></li>
+                        <li><a href="#">사원 등록 및 수정</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">소재관리</a>
+                    <ul>
+                        <li><a href="#">메뉴1</a></li>
+                        <li><a href="#">메뉴2</a></li>
+                        <li><a href="#">메뉴3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">DB 관리</a>
+                    <ul>
+                        <li><a href="#">광고파트너</a></li>
+                        <li><a href="#">광고주</a></li>
+                        <li><a href="#">센터</a></li>
+                        <li><a href="#">DB 퍼미션</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">기기 관리</a>
+                    <ul>
+                        <li><a href="#">메뉴1</a></li>
+                        <li><a href="#">메뉴2</a></li>
+                        <li><a href="#">메뉴3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">알림톡 발송</a>
+                    <ul>
+                        <li><a href="#">메뉴1</a></li>
+                        <li><a href="#">메뉴2</a></li>
+                        <li><a href="#">메뉴3</a></li>
+                    </ul>
+                </li>
+                <li class="nodep"><a href="#">공지사항 등록</a></li>
+            </ul>
+        </aside>
+        <div class="container">
+            <header>
+                <button class="btn_menu"></button>
+                <p>DCOCO POTAL</p>
+                <p>접속IP : 218.237.65.1</p>
+                <div class="right">
+                    <span class="name">최은희 (A등급)님</span>
+                    <span>이 로그인하셨습니다 </span>
+                    <div class="grp_topmenu">
+                        <button class="btn_noti">알림</button>
+                        <button>공지사항</button>
+                        <button>로그아웃</button>
+                    </div>
+                </div>
+            </header>
+            <div class="tab_main">
+                <ul class="tab_main_list">
+                    <li><a href="#" class="on">광고파트너 라이브</a><button class="close"></button></li>
+                </ul>
+                <div class="tit_main">
+                    <h2>광고파트너 라이브</h2>
+                    <p>광고파트너 라이브를 발송할 수 있습니다.</p>
+                </div>
+                <div class="content">
+                    <div class="box_form">
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">담당자명</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고파트너 선택</p>
+                                <div class="grp_flex">
+                                    <input type="text">
+                                    <button class="btn_cm yellow">검색하기</button>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">파트너 성명</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">파트너 연락처</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">전달 메시지</p>
+                                <textarea name="" id="" cols="30" rows="10" style="height:80px;"></textarea>
+                            </div>
+                            <div class="box_btn">
+                                <button class="btn_cm">알림톡 발송하기</button>
+                            </div>
+                        </div>
+                        <div class="grp_form" style="flex:2">
+                            <h3>발송조회</h3>
+                            <div class="cont"> </div>
+                            <div class="cont">
+                                <p class="tit" style="width: 56px;">기간</p>
+                                <div class="grp_flex"> 
+                                    <div class="grp_cal">
+                                        <input type="text" name="" id="">
+                                        <button></button>
+                                    </div>
+                                    <span class="">-</span>
+                                    <div class="grp_cal">
+                                        <input type="text" name="" id="">
+                                        <button></button>
+                                    </div>
+                                    <input type="text" name="" id=""style="width: 200px;">
+                                    <button class="btn_cm">검색하기</button>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <div class="box_board">
+                                    <table>
+                                        <colgroup>
+                                            <col style="width:50px">
+                                            <col>
+                                            <col>
+                                            <col>
+                                            <col>
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th><input class="" type="checkbox"></th>
+                                                <th>템플릿코드</th>
+                                                <th>발송일</th>
+                                                <th>담당자</th>
+                                                <th>수신인 연락처</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><input class="" type="checkbox"></td>
+                                                <td>템플릿코드템플릿코드</td>
+                                                <td>2023-12-18 19:00:15</td>
+                                                <td>담당자담당자</td>
+                                                <td>010-3030-3030</td>
+                                            </tr>
+                                            <tr>
+                                                <td><input class="" type="checkbox"></td>
+                                                <td>템플릿코드템플릿코드</td>
+                                                <td>2023-12-18 19:00:15</td>
+                                                <td>담당자담당자</td>
+                                                <td>010-3030-3030</td>
+                                            </tr>
+                                            <tr>
+                                                <td><input class="" type="checkbox"></td>
+                                                <td>템플릿코드템플릿코드</td>
+                                                <td>2023-12-18 19:00:15</td>
+                                                <td>담당자담당자</td>
+                                                <td>010-3030-3030</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="box_pgn">
+                                        <ul class="pagination_sic">
+                                            <li class="active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
