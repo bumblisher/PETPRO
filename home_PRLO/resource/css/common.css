@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* 메인 */
+body{background: #000;color:#fff}
+
+header{position: relative;display: flex;align-items: center;height: 100px;padding:0 85px;box-sizing: border-box;}
+header h1 { height: 40px; display: flex;align-items: center;justify-content: center;} 
+header h1 a { display: block;width: 120px;height: 40px; background: url(../images/logo.png) no-repeat center; font-size: 0;background-size: 120px;} 
+header .btn_menu{margin-left: auto;font-size: 0;display: inline-block;width: 40px;height: 40px;background: url(../images/btn_menu.png) no-repeat center;background-size: 40px;}
+.img_sec01{width: 362px;height: 107px;}
