@@ -54,11 +54,11 @@ section{box-sizing: border-box;}
 @keyframes text_ani {
     to {
         transform: translateX(-100%);
-        filter: hue-rotate(0);
+        /* filter: hue-rotate(0); */
     }
     from {
         transform: translateX(100%);
-        filter: hue-rotate(360deg);
+        /* filter: hue-rotate(360deg); */
     }
 }
 
