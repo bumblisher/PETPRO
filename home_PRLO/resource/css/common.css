@@ -231,6 +231,7 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec06{margin-top: 81px;}
 .mob .sec06 .grp_img{margin-top: 0;}
 .mob .sec06 .grp_img img{width: 200px;height: 60px;background-size: contain;}
+.mob .sec06 .txt_ani span::before{width: 45px;height: 21px;background-size: contain;}
 .mob .sec06 .box_form{margin-top: 132px;}
 .mob .sec06 .box_form h2{font-size: 32px;line-height: inherit;}
 .mob .sec06 .box_form .sub_tit{margin-top: 20px;font-size: 14px;}
