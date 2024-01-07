@@ -212,10 +212,10 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec03 ul li .tit br,
 .mob .sec03 ul li .txt br{display: none;}
 .mob .sec03 ul li .txt{margin-top: 51px;font-size: 14px;line-height: 25px;letter-spacing: -1px;}
-.mob .sec03 ul li:nth-child(1){background: url(../images/mo_bg_sec03_list01.png) no-repeat center bottom ;}
-.mob .sec03 ul li:nth-child(2){background: url(../images/mo_bg_sec03_list02.png) no-repeat center bottom ;}
-.mob .sec03 ul li:nth-child(3){background: url(../images/mo_bg_sec03_list03.png) no-repeat center bottom ;}
-.mob .sec03 ul li:nth-child(4){background: url(../images/mo_bg_sec03_list04.png) no-repeat right 20px bottom -8px;}
+.mob .sec03 ul li:nth-child(1){background: url(../images/mo_bg_sec03_list01.svg) no-repeat center bottom ;}
+.mob .sec03 ul li:nth-child(2){background: url(../images/mo_bg_sec03_list02.svg) no-repeat center bottom ;}
+.mob .sec03 ul li:nth-child(3){background: url(../images/mo_bg_sec03_list03.svg) no-repeat center bottom ;}
+.mob .sec03 ul li:nth-child(4){background: url(../images/mo_bg_sec03_list04.svg) no-repeat right 20px bottom -8px;}
 
 .mob .sec04{margin-top: 63px;}
 .mob .sec04 h2{font-size: 24px;line-height: inherit;}
