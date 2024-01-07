@@ -240,7 +240,7 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec06 .box_form ul li + li{margin-top: 20px;}
 .mob .sec06 .box_form ul li select,
 .mob .sec06 .box_form ul li input,
-.mob .sec06 .box_form ul li textarea{padding: 0 10px;font-size: 14px;}
+.mob .sec06 .box_form ul li textarea{padding: 0 10px;font-size: 14px; -webkit-appearance: none;appearance: none;}
 .mob .sec06 .box_form ul li select{height: 55px;background-size: 12px;}
 .mob .sec06 .box_form ul li input{height: 55px;}
 .mob .sec06 .box_form ul li textarea{padding: 10px;}
