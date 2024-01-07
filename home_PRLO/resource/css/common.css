@@ -57,9 +57,13 @@ section{box-sizing: border-box;}
         -webkit-text-stroke-color: #C7DA01;
         /* filter: hue-rotate(0); */
     }
+    60% {
+        -webkit-text-stroke-color: #24ad38;
+        /* filter: hue-rotate(0); */
+    }
     from {
         transform: translateX(100%);
-        -webkit-text-stroke-color: #24ad38;
+        -webkit-text-stroke-color: #C7DA01;
         /* filter: hue-rotate(360deg); */
     }
 }
