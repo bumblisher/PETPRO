@@ -232,3 +232,24 @@ header .btn_menu{width: 30px;height: 30px;background-size: contain;}
 .sec06 .box_form ul li{flex-direction: column;align-items: flex-start;}
 .sec06 .box_form ul li .tit{width: auto;font-size: 14px;margin-bottom: 10px;}
 .sec06 .box_form ul li + li{margin-top: 20px;}
+.sec06 .box_form ul li select,
+.sec06 .box_form ul li input,
+.sec06 .box_form ul li textarea{padding: 0 10px;font-size: 14px;}
+.sec06 .box_form ul li select{height: 55px;background-size: 12px;}
+.sec06 .box_form ul li input{height: 55px;}
+.sec06 .box_form ul li textarea{padding: 10px;}
+.sec06 .btn_sec06{margin: 38px auto 0;font-size: 40px;padding-right: 28px;}
+.sec06 .btn_sec06::after{width: 20px;height: 20px;top:-7px}
+
+footer{margin-top: 0;padding: 250px 20px 20px;background-size: 100%;}
+footer h2{width: 82px;height: 27px;background-size: contain;}
+footer .grp_footer{margin-top: 20px;flex-direction: column;}
+footer .grp_footer .left p{font-size: 12px;line-height: 20px;}
+footer .grp_footer .right{gap: 0;margin: 20px auto 0;justify-content: space-between;width: 100%;}
+footer .grp_footer .right a{font-size: 11px;}
+footer .txt_sub{font-size: 12px;line-height: 20px;letter-spacing: -1px;margin-top: 20px;}
+footer .txt_sub .gap{margin-left: 15px;}
+footer .grp_copy{flex-direction: column;align-items: flex-start;}
+footer .grp_copy .left{font-size: 11px;margin-bottom: 5px;}
+footer .grp_copy .left a{font-size: 11px;}
+footer .grp_copy .right{font-size: 10px;font-weight: 400;margin-left: 0;}
