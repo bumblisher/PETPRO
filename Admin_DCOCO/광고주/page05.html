@@ -1,0 +1,162 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resource/css/reset.css">
+    <link rel="stylesheet" href="../resource/css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../resource/js/main.js"></script>
+    <title>DCOCO</title>
+</head>
+
+<body>
+    <div class="wrap ad">
+        <aside>
+            <h1 class="logo"><a href="#">DCOCO</a></h1>
+            <div class="grp_nav_noti">
+                <p class="tit">Notice</p>
+                <a href="#" class="btn_more">more</a>
+            </div>
+            <ul class="nav_noti">
+                <li><a href="#">최근 공지 1</a></li>
+                <li><a href="#">최근 공지 2</a></li>
+            </ul>
+            <div class="grp_nav_noti">
+                <p class="tit">Menu</p>
+            </div>
+            <ul class="nav_menu">
+                <li>
+                    <a href="#">광고현황</a>
+                    <ul>
+                        <li><a href="#">CPM 광고</a></li>
+                        <li><a href="#">CPA 광고</a></li>
+                    </ul>
+                </li>
+                <li class="nodep"><a href="#">광고상품변경</a></li>
+                <li class="nodep"><a href="#">광고비 내역</a></li>
+                <li class="nodep"><a href="#">정보변경</a></li>
+                <li class="nodep"><a href="#">공지사항</a></li>
+            </ul>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                </div>
+                <div class="grp_swiper">
+                    <button class="swiper-button-prev"></button>
+                    <div class="swiper-pagination"></div>
+                    <button class="swiper-button-next"></butto>
+                </div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    centeredSlides: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev"
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "fraction",
+                    }
+                });
+            </script>
+        </aside>
+        <div class="container">
+            <header>
+                <button class="btn_menu"></button>
+                <p>DCOCO POTAL</p>
+                <p>접속IP : 218.237.65.1</p>
+                <div class="right">
+                    <span class="name">최은희 (A등급)님</span>
+                    <span>이 로그인하셨습니다 </span>
+                    <div class="grp_topmenu">
+                        <button class="btn_noti">알림</button>
+                        <button>공지사항</button>
+                        <button>로그아웃</button>
+                    </div>
+                </div>
+            </header>
+            <div class="tab_main">
+                <ul class="tab_main_list">
+                    <li><a href="#" class="on">공지사항</a><button class="close"></button></li>
+                </ul>
+                <div class="tit_main">
+                    <h2>공지사항</h2>
+                    <p>공지사항을 확인할 수 있습니다.</p>
+                </div>
+                <div class="content">
+                    <div class="box_board">
+                        <table>
+                            <colgroup>
+                                <col>
+                                <col>
+                                <col>
+                                <col>
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th class="tal">제목</th>
+                                    <th>등록일</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="tal">[공지] 공지사항제목공지사항제목공지사항제목공지사항제목</td>
+                                    <td>2023-12-20</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="tal">[공지] 공지사항제목공지사항제목공지사항제목공지사항제목</td>
+                                    <td>2023-12-20</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="tal">[공지] 공지사항제목공지사항제목공지사항제목공지사항제목</td>
+                                    <td>2023-12-20</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="tal">[공지] 공지사항제목공지사항제목공지사항제목공지사항제목</td>
+                                    <td>2023-12-20</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="box_pgn">
+                            <ul class="pagination_sic">
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
