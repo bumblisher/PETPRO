@@ -242,6 +242,16 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .box_form .grp_form.group{flex-direction: row;}
 .box_form .grp_form.group > .grp_form{padding:0}
 .box_form +.box_form{margin-top: 50px;}
+.box_form.verti{flex-direction: column;}
+.box_form.verti > .grp_form{width: 100%;box-sizing: border-box;border-radius: 10px 10px 0 0;}
+.box_form.verti > .grp_form + .grp_form{margin: 0;border-top:1px solid #DEE2E6;border-radius: 0 0 10px 10px;}
+.box_form.verti > .grp_form .money{display: flex;align-items: center;font-size: 20px;font-weight: 600;}
+.box_form.verti > .grp_form .money .tit{font-size: 24px;font-weight: 600;margin-right: 26px;}
+.box_form.verti > .grp_form .money .num{font-size: 32px;font-weight: 600;color:#FF9900;margin-right: 2px;}
+.box_form.verti > .grp_form .money.small{font-size: 15px;margin-top: 15px;}
+.box_form.verti > .grp_form .money.small .tit{font-size: 19px;}
+.box_form.verti > .grp_form .money.small .num{font-size: 27px;}
+.box_form.verti > .grp_form .noti_txt+.noti_txt{margin-top: 10px;}
 .box_form.edit .grp_form{background: transparent;padding: 0;}
 .box_form.edit .grp_form .cont input[type="text"],
 .box_form.edit .grp_form .cont input[type="password"],
@@ -353,7 +363,7 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .dash_num .dash_num {font-size: 12px;margin-top: 5px;}
 .dash_num .dash_num .num{font-size: 14px;font-weight: 500;}
 
-.box_btn { display:flex;align-items: center;justify-content: center; margin-top:50px;} 
+.box_btn { display:flex;align-items: center;justify-content: center; margin-top:30px;} 
 .box_btn .btn_cm{min-width: 120px;height: 60px;padding: 0 15px;font-size: 18px;}
 .box_btn button + button{margin-left: 10px;}
 

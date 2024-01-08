@@ -1,0 +1,225 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resource/css/reset.css">
+    <link rel="stylesheet" href="../resource/css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../resource/js/main.js"></script>
+    <title>DCOCO</title>
+</head>
+
+<body>
+    <div class="wrap ad">
+        <aside>
+            <h1 class="logo"><a href="#">DCOCO</a></h1>
+            <div class="grp_nav_noti">
+                <p class="tit">Notice</p>
+                <a href="#" class="btn_more">more</a>
+            </div>
+            <ul class="nav_noti">
+                <li><a href="#">최근 공지 1</a></li>
+                <li><a href="#">최근 공지 2</a></li>
+            </ul>
+            <div class="grp_nav_noti">
+                <p class="tit">Menu</p>
+            </div>
+            <ul class="nav_menu">
+                <li>
+                    <a href="#">광고현황</a>
+                    <ul>
+                        <li><a href="#">CPM 광고</a></li>
+                        <li><a href="#">CPA 광고</a></li>
+                    </ul>
+                </li>
+                <li class="nodep"><a href="#">광고상품변경</a></li>
+                <li class="nodep"><a href="#">광고비 내역</a></li>
+                <li class="nodep"><a href="#">정보변경</a></li>
+                <li class="nodep"><a href="#">공지사항</a></li>
+            </ul>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../resource/images/ad_img_aside.png" />
+                    </div>
+                </div>
+                <div class="grp_swiper">
+                    <button class="swiper-button-prev"></button>
+                    <div class="swiper-pagination"></div>
+                    <button class="swiper-button-next"></butto>
+                </div>
+            </div>
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    centeredSlides: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev"
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        type: "fraction",
+                    }
+                });
+            </script>
+        </aside>
+        <div class="container">
+            <header>
+                <button class="btn_menu"></button>
+                <p>PETPRO POTAL</p>
+                <p>접속IP : 218.237.65.1</p>
+                <div class="right">
+                    <span class="name">최은희 (A등급)님</span>
+                    <span>이 로그인하셨습니다 </span>
+                    <div class="grp_topmenu">
+                        <button class="btn_noti">알림</button>
+                        <button>공지사항</button>
+                        <button>로그아웃</button>
+                    </div>
+                </div>
+            </header>
+            <div class="tab_main">
+                <ul class="tab_main_list">
+                    <li><a href="#" class="on">정보변경</a><button class="close"></button></li>
+                </ul>
+                <div class="tit_main">
+                    <h2>정보변경</h2>
+                    <p>광고주를 수정하고 관리합니다.</p>
+                </div>
+                <div class="content">
+                    <div class="box_form">
+                        <div class="grp_form">
+                            <h3>광고주 정보</h3>
+                            <div class="cont">
+                                <p class="tit">아이디</p>
+                                <div class="grp_flex">
+                                    <span>A</span>
+                                    <input type="text" readonly>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">비밀번호</p>
+                                <div class="grp_flex">
+                                    <span>!</span>
+                                    <input type="password" readonly>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">사업자명</p>
+                                <input type="text" readonly>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">사업자 등록번호</p>
+                                <input type="text" readonly>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 담당자명</p>
+                                <input type="text" readonly>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">담당자 연락처</p>
+                                <input type="text" readonly>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">휴먼</p>
+                                <div class="grp_radio">
+                                    <input type="radio" name="radio01" id="radio01" checked>
+                                    <label for="radio01">네</label>
+                                    <input type="radio" name="radio01" id="radio02">
+                                    <label for="radio02">아니오</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form">
+                            <h3>정보변경</h3>
+                            <div class="cont">
+                                <p class="tit">아이디</p>
+                                <div class="grp_flex">
+                                    <span>A</span>
+                                    <input type="text" readonly>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">비밀번호</p>
+                                <div class="grp_flex">
+                                    <span>!</span>
+                                    <input type="password">
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">사업자명</p>
+                                <input type="text" readonly>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">사업자 등록번호</p>
+                                <input type="text" readonly>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">광고 담당자명</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">담당자 연락처</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">휴먼</p>
+                                <div class="grp_radio">
+                                    <input type="radio" name="radio02" id="radio03" checked>
+                                    <label for="radio03">네</label>
+                                    <input type="radio" name="radio02" id="radio04">
+                                    <label for="radio04">아니오</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="box_form full">
+                        <h3>담당자 휴대폰 번호로 발송되는 인증번호를 입력해 주세요.</h3>
+                        <div class="grp_form">
+                            <div class="cont">
+                                <p class="tit">광고 담당자명</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">담당자 연락처</p>
+                                <input type="text">
+                            </div>
+                            <div class="cont">
+                                <p class="tit">휴대폰 인증번호</p>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_btn">
+                    <button class="btn_cm">수정하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
