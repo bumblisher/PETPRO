@@ -16,7 +16,6 @@ $(document).ready(function() {
         else{
             sub_menu.slideDown();
             $(".nav_menu").children().eq(indexG).addClass("active");
-            $(this).parent().removeClass("on")
         }
         
     });
