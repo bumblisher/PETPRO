@@ -72,6 +72,7 @@ $(document).ready(function() {
 
     //슬라이드토글
     $('.list_tog li button').on('click',function(){
+        $(this).toggleClass("on");
         $(this).next(".cont").stop().slideToggle(300);
     });
     
