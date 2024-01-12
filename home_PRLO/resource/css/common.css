@@ -13,7 +13,7 @@ header .btn_menu{margin-left: auto;font-size: 0;display: inline-block;width: 40p
 section{box-sizing: border-box;}
 .sec_inner{position: relative;padding: 0 85px;}
 
-.sec01{padding-bottom: 130px;background: url(../images/bg_sec01.png) no-repeat top right;/*border-bottom: 2px solid #C7DA01;*/}
+.sec01{padding-bottom: 130px;background: url(../images/bg_sec01.webp) no-repeat top right;/*border-bottom: 2px solid #C7DA01;*/}
 .sec01 .sec_inner{padding-top: 400px;}
 .sec01 .img_sec01{margin-top: 30px;width: 362px;height: 107px;}
 .sec01 .txt_main{font-size: 100px;font-weight: 900;line-height: 130px;}
@@ -72,9 +72,9 @@ section{box-sizing: border-box;}
 .sec03 ul li .tit{position: relative;width: 530px;flex:none;font-size: 48px;font-weight: 900;line-height: 70px;padding-left: 90px;box-sizing: border-box;}
 .sec03 ul li .tit::before{content: '';position: absolute;left:0;top:10px;width: 50px;height: 50px;border-radius: 50%;background: #C7DA01;}
 .sec03 ul li .txt{font-size: 24px;font-weight: 600;line-height: 40px;}
-.sec03 ul li:nth-child(1){background: url(../images/bg_sec03_list01.png) no-repeat left 296px bottom 10px;}
+.sec03 ul li:nth-child(1){background: url(../images/bg_sec03_list01.webp) no-repeat left 296px bottom 10px;}
 .sec03 ul li:nth-child(2){background: url(../images/bg_sec03_list02.png) no-repeat right 325px bottom -3px;}
-.sec03 ul li:nth-child(3){background: url(../images/bg_sec03_list03.png) no-repeat left 284px bottom -2px;}
+.sec03 ul li:nth-child(3){background: url(../images/bg_sec03_list03.webp) no-repeat left 284px bottom -2px;}
 .sec03 ul li:nth-child(4){background: url(../images/bg_sec03_list04.png) no-repeat left 427px bottom -17px;}
 
 
@@ -164,7 +164,7 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec01 .txt_main{font-size: 36px;line-height: 45px;}
 .mob .sec01 .img_sec01{margin-top: 15px;width: 149px;height: 44px;}
 .mob .sec01 .txt_sub{margin-top: 34px;font-size: 16px;line-height: 20px;}
-.mob .sec01{background: url(../images/bg_sec01.png) no-repeat bottom center;background-size: 444px;}
+.mob .sec01{background: url(../images/bg_sec01.webp) no-repeat bottom center;background-size: 444px;}
 
 .mob .sec02{padding-top: 71px;}
 .mob .sec02 h2{font-size: 24px;line-height: inherit;}
@@ -209,9 +209,9 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec03 ul li .tit br,
 .mob .sec03 ul li .txt br{display: none;}
 .mob .sec03 ul li .txt{margin-top: 51px;font-size: 14px;line-height: 25px;letter-spacing: -1px;}
-.mob .sec03 ul li:nth-child(1){background: url(../images/mo_bg_sec03_list01.svg) no-repeat center bottom ;}
+.mob .sec03 ul li:nth-child(1){background: url(../images/mo_bg_sec03_list01.webp) no-repeat center bottom ;background-size: 344px;}
 .mob .sec03 ul li:nth-child(2){background: url(../images/mo_bg_sec03_list02.svg) no-repeat center bottom ;}
-.mob .sec03 ul li:nth-child(3){background: url(../images/mo_bg_sec03_list03.svg) no-repeat center bottom ;}
+.mob .sec03 ul li:nth-child(3){background: url(../images/mo_bg_sec03_list03.webp) no-repeat center bottom ;background-size: 344px;}
 .mob .sec03 ul li:nth-child(4){background: url(../images/mo_bg_sec03_list04.svg) no-repeat right 20px bottom -8px;}
 
 .mob .sec04{margin-top: 63px;}
