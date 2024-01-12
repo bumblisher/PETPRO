@@ -3,7 +3,7 @@
 /* 메인 */
 body{background: #000;color:#fff}
 
-.wrap{min-width: 1840px;overflow: hidden;margin: 0 auto;padding-top: 100px;}
+.wrap{min-width: 1840px;max-width: 1920px;overflow: hidden;margin: 0 auto;padding-top: 100px;}
 
 header{position: fixed;top:0;left:0;right:0;display: flex;align-items: center;height: 100px;padding:0 85px;background: #000;box-sizing: border-box;z-index: 10;}
 header h1 { display: flex;align-items: center;justify-content: center;} 
@@ -134,7 +134,8 @@ section{box-sizing: border-box;}
 .sec06 .btn_sec06{margin: 74px 0 0 136px;position: relative;font-size: 80px;font-weight: 900;background: transparent;color:#fff;padding-right: 76px;}
 .sec06 .btn_sec06::after{content: '';position: absolute;right:0;top:-14px;width: 50px;height: 50px;border-radius: 50%;background: #C7DA01;}
 
-footer{margin-top: -200px;background: url(../images/bg_footer.png) no-repeat top center;padding: 1000px 85px 82px;background-size: 100%;}
+footer{position: relative;margin-top: -200px;padding: 1000px 85px 82px;}
+footer::before{content: '';position: absolute;top: 0;left: 0;right: 0;height: 100%;background: url(../images/bg_footer.png) no-repeat top center;background-size: contain;z-index: -1;}
 footer h2{display: block;width: 159px;height: 47px;background: url(../images/logo_footer.png) no-repeat center;}
 footer .grp_footer{display: flex;align-items: flex-start;margin-top: 36px;}
 footer .grp_footer .left p{font-weight: 500;font-size: 20px;line-height: 40px;}
