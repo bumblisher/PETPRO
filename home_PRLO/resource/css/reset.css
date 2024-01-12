@@ -68,9 +68,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-html, body {
+/* html, body {
 	height:100%;
-}
+} */
 ol, ul {
 	list-style: none;
 }
