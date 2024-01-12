@@ -3,7 +3,7 @@
 /* 메인 */
 body{background: #000;color:#fff}
 
-.wrap{min-width: 1900px;max-width: 1920px;overflow: hidden;margin: 0 auto;padding-top: 100px;}
+.wrap{min-width: 1840px;overflow: hidden;margin: 0 auto;padding-top: 100px;}
 
 header{position: fixed;top:0;left:0;right:0;display: flex;align-items: center;height: 100px;padding:0 85px;background: #000;box-sizing: border-box;z-index: 10;}
 header h1 { display: flex;align-items: center;justify-content: center;} 
@@ -122,10 +122,19 @@ section{box-sizing: border-box;}
 .sec06 .box_form ul li select{height: 70px;appearance: none;background:#C7DA01 url(../images/ico_select.png) no-repeat center right 19px;}
 .sec06 .box_form ul li input{height: 70px;}
 .sec06 .box_form ul li textarea{padding: 19px;resize: none;}
+.sec06 .box_form ul li:last-child{justify-content: center;}
+.sec06 .box_form .grp_check{padding-left: 136px;}
+.sec06 .box_form .grp_check input[type="checkbox"] { display: none; } 
+.sec06 .box_form .grp_check label { position: relative; display:inline-flex; align-items: center; /*padding-left: 25px;*/ font-size: 18px; color:#fff; cursor: pointer;} 
+.sec06 .box_form .grp_check label:before { content:''; flex:none; display: inline-block;margin-right: 15px; width:34px; height: 34px; border:1px solid #ccc; border-radius: 9px; box-sizing: border-box; background: #F3F4F6; } 
+.sec06 .box_form .grp_check label:after { content: ''; position: absolute; left: 8px; top: 50%;margin-top: -8px; width: 16px; height: 8px; border: 3px solid #DEE2E6; border-width: 0 0 4px 4px; transform: rotate(-45deg); } 
+.sec06 .box_form .grp_check label a{font-size: 16px;font-weight: 700;color:#ADB5BD;margin-left: 10px;}
+.sec06 .box_form .grp_check input[type="checkbox"]:checked + label:before{background: #C7DA01;border-color: #C7DA01;}
+/* .sec06 .box_form .grp_check input[type="checkbox"]:checked + label:after{border-color: #C7DA01;} */
 .sec06 .btn_sec06{margin: 74px 0 0 136px;position: relative;font-size: 80px;font-weight: 900;background: transparent;color:#fff;padding-right: 76px;}
 .sec06 .btn_sec06::after{content: '';position: absolute;right:0;top:-14px;width: 50px;height: 50px;border-radius: 50%;background: #C7DA01;}
 
-footer{margin-top: -200px;background: url(../images/bg_footer.png) no-repeat top center;padding: 1000px 85px 82px;background-size: contain;}
+footer{margin-top: -200px;background: url(../images/bg_footer.png) no-repeat top center;padding: 1000px 85px 82px;background-size: 100%;}
 footer h2{display: block;width: 159px;height: 47px;background: url(../images/logo_footer.png) no-repeat center;}
 footer .grp_footer{display: flex;align-items: flex-start;margin-top: 36px;}
 footer .grp_footer .left p{font-weight: 500;font-size: 20px;line-height: 40px;}
@@ -244,6 +253,12 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec06 .box_form ul li select{height: 55px;background-size: 12px;}
 .mob .sec06 .box_form ul li input{height: 55px;}
 .mob .sec06 .box_form ul li textarea{padding: 10px;}
+.mob .sec06 .box_form ul li:last-child{align-items: center;}
+.mob .sec06 .box_form .grp_check{padding-left: 0;}
+.mob .sec06 .box_form .grp_check label:before{width: 24px;height: 24px;border-radius: 4px;}
+.mob .sec06 .box_form .grp_check label:after{left: 3px;margin-top: -7px;width: 14px;height: 6px;}
+.mob .sec06 .box_form .grp_check label{font-size: 14px;}
+.mob .sec06 .box_form .grp_check label a{font-size: 12px;}
 .mob .sec06 .btn_sec06{margin: 38px auto 0;font-size: 40px;padding-right: 28px;}
 .mob .sec06 .btn_sec06::after{width: 20px;height: 20px;top:-7px}
 
