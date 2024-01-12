@@ -265,8 +265,7 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec06 .btn_sec06{margin: 38px auto 0;font-size: 40px;padding-right: 28px;}
 .mob .sec06 .btn_sec06::after{width: 20px;height: 20px;top:-7px}
 
-
-.mob footer{margin-top: 0;padding: 250px 20px 20px;background-size: 100%;}
+.mob footer{margin-top: 0;padding: 180px 20px 20px;background-size: 100%;}
 .mob footer h2{width: 82px;height: 27px;background-size: contain;}
 .mob footer .grp_footer{margin-top: 20px;flex-direction: column;}
 .mob footer .grp_footer .left p{font-size: 12px;line-height: 20px;}
