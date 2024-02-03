@@ -167,19 +167,68 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 
 
 /* sub */
-.lime{background-color: #C7DA01;}
+.lime{background-color: #C7DA01;color:#000}
+.lime::after{display: none;}
 .lime header{background-color: #C7DA01;}
 .lime header h1 a{background: url(../images/logo_b.png) no-repeat center;}
 .lime header .nav a{color:#000}
-/* .wrap[class*="sub"]{max-width: none;} */
 
-.sub01 .sub_sec01{padding: 500px 0;background: url(../images/sub01_bg_sec01.png) top 100px right -5px no-repeat;background-size: 1520px;}
-.sub01 .sub_sec01 .txt_sub{font-size: 64px;font-weight: 900;line-height: 130%;}
-.sub01 .sub_sec01 .txt_main{font-size: 100px;font-weight: 900;line-height: 130%;color:#000}
-.sub01 .sec_inner{}
+section[class*="sub_sec"] h2{font-size: 64px;font-weight: 900;line-height: 81px;}
+
+/* sub01 */
+.sub01 .sub_sec01{padding: 500px 0 0;background: url(../images/sub01_bg_sec01.png) top 100px right -5px no-repeat;background-size: 1520px;}
+.sub01 .sub_sec01 .txt_sub{font-size: 64px;font-weight: 900;line-height: 130%;color:#fff}
+.sub01 .sub_sec01 .txt_main{font-size: 100px;font-weight: 900;line-height: 130%;}
+.sub01 .sub_sec01 .grp_tablet{width: 1275px;height: 779px;display: flex;align-items: center;justify-content: center;margin: 400px auto 0;flex-direction: column;background: url(../images/sub01_bg_sec01_2.png) no-repeat center;}
+.sub01 .sub_sec01 .grp_tablet .tit{font-weight: 900;font-size: 64px;line-height: 110px;color:#fff;margin-bottom: 40px;}
+.sub01 .sub_sec01 .grp_tablet .txt{font-weight: 800;font-size: 32px;line-height: 60px;text-align: center;color:#fff}
+
+.sub01 .sub_sec02{margin-top: 343px;}
+.sub01 .sub_sec02 .mySwiper01{margin-top: 130px;height: 555px;}
+.sub01 .sub_sec02 .mySwiper01 .swiper-slide img{width: 100%;}
+.sub01 .sub_sec02 .mySwiper01 .swiper-slide p{position: absolute;width: 100%;bottom: 37px;font-size: 38px;font-weight: 700;line-height: 60px;text-align: center;letter-spacing: -1px;}
+.sub01 .sub_sec02 .mySwiper01 .swiper-slide p span{color:#C7DA01}
+.sub01 .sub_sec02 .swiper-pagination01{margin-top: 49px;text-align: center;}
+.sub01 .swiper-pagination-bullet{width: 20px;height: 20px;margin: 0 8px !important;background: #b3b3b3;opacity: 1;}
+.sub01 .swiper-pagination-bullet.swiper-pagination-bullet-active{background: #000;}
+
+.sub01 .sub_sec03{margin-top: 248px;}
+.sub01 .sub_sec03 .box_form{margin-top: 232px;text-align: center;}
+.sub01 .sub_sec03 .box_form h2{font-size: 100px;font-weight: 900;line-height: 120px;}
+.sub01 .sub_sec03 .box_form .grp_btn{margin-top: 63px;display: flex;align-items: center;justify-content: center;}
+.sub01 .sub_sec03 .box_form .grp_btn button{display: inline-flex;align-items: center;justify-content: center;height: 155px;width: 600px;border:1px solid #000;background: #C7DA01;font-size: 36px;font-weight: 900;line-height: 120px;}
+.sub01 .sub_sec03 .box_form .grp_btn button:before{content: '';display: inline-block;width: 31px;height: 45px;background: url(../images/sub01_ico_sec03_call.png) no-repeat center;margin-right: 14px;}
+.sub01 .sub_sec03 .box_form .grp_btn button+button{margin-left: 73px;}
+.sub01 .sub_sec03 .box_form .grp_btn button+button:before{content: '';display: inline-block;width: 51px;height: 47px;background: url(../images/sub01_ico_sec03_kakao.png) no-repeat center;margin-right: 14px;}
+.sub01 .sub_sec03 .box_form ul{width: 1000px;margin: 112px auto 0;}
+.sub01 .sub_sec03 .box_form ul li{display: flex;align-items: center;}
+.sub01 .sub_sec03 .box_form ul li + li{margin-top: 31px;}
+.sub01 .sub_sec03 .box_form ul li .tit{width: 170px;flex:none;text-align: left;font-size: 24px;font-weight: 500;}
+.sub01 .sub_sec03 .box_form ul li select,
+.sub01 .sub_sec03 .box_form ul li input,
+.sub01 .sub_sec03 .box_form ul li textarea{width: 100%;background: #fff;padding:0 19px;box-sizing: border-box;font-size: 24px;font-weight: 500;color:#000;}
+.sub01 .sub_sec03 .box_form ul li select{height: 70px;appearance: none;background:#fff url(../images/ico_select.png) no-repeat center right 19px;}
+.sub01 .sub_sec03 .box_form ul li input{height: 70px;}
+.sub01 .sub_sec03 .box_form ul li textarea{padding: 19px;resize: none;}
+.sub01 .sub_sec03 .box_form ul li:last-child{justify-content: center;}
+.sub01 .sub_sec03 .box_form .grp_check{padding-left: 136px;}
+.sub01 .sub_sec03 .box_form .grp_check input[type="checkbox"] { display: none; } 
+.sub01 .sub_sec03 .box_form .grp_check label { position: relative; display:inline-flex; align-items: center; /*padding-left: 25px;*/ font-size: 24px;font-weight: 700;; color:#000; cursor: pointer;} 
+.sub01 .sub_sec03 .box_form .grp_check label:before { content:''; flex:none; display: inline-block;margin-right: 15px; width:44px; height: 44px; border:1px solid #ccc; border-radius: 9px; box-sizing: border-box; background: #F3F4F6; } 
+.sub01 .sub_sec03 .box_form .grp_check label:after { content: ''; position: absolute; left: 12px; top: 50%;margin-top: -10px; width: 19px; height: 8px; border: 3px solid #bbb; border-width: 0 0 4px 4px; transform: rotate(-45deg); } 
+.sub01 .sub_sec03 .box_form .grp_check label a{font-size: 16px;font-weight: 700;color:#000;margin-left: 10px;}
+.sub01 .sub_sec03 .box_form .grp_check input[type="checkbox"]:checked + label:before{background: #000;border-color: #000;}
+.sub01 .sub_sec03 .box_form .grp_check input[type="checkbox"]:checked + label:after{border-color: #fff;}
+.sub01 .sub_sec03 .btn_sec03{margin: 74px 0 0 136px;position: relative;font-size: 80px;font-weight: 900;background: transparent;color:#000;padding-right: 76px;}
+.sub01 .sub_sec03 .btn_sec03::after{content: '';position: absolute;right:0;top:-14px;width: 50px;height: 50px;border-radius: 50%;background: #000;}
+
+.sub01 .sub_sec04{margin-top: 225px;}
+.sub01 .sub_sec04 ul li{padding: 240px 130px 60px;height: 614px;border-bottom: 2px solid #000;box-sizing: border-box;}
+.sub01 .sub_sec04 ul li:nth-child(1){background: url(../images/sub01_bg_sec04_1.png);}
 
 
 
+/* sub03 */
 .sub03 .sec06{margin-top: 0;border-top: 0;}
 .sub03 .sec06 .box_ani{margin-top: 50px;}
 .sub03 .sec06 .box_map{display: flex;background-color: #C7DA01;margin-top: 120px;}
@@ -194,6 +243,9 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .sub03 .sec06 .box_map .left ul li:nth-child(3){background: url(../images/sub03_ico_map04.png) top left no-repeat}
 .sub03 .sec06 .box_map .left ul li:nth-child(4){background: url(../images/sub03_ico_map05.png) top left no-repeat}
 .sub03 .sec06 .box_map .grp_map{flex: none;}
+
+
+
 
 
 /* mobile */
