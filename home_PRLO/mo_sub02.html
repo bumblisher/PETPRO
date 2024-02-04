@@ -17,14 +17,30 @@
     <title>PRLO</title>
 </head>
 <body class="lime type2">
-    <div class="wrap sub02">
+    <div class="wrap sub02 mob">
         <header>
             <h1><a href="#">PRLO</a></h1>
+            <button class="btn_menu">메뉴</button>
             <div class="nav">
-				<a href="#">HOME</a>
-				<a href="#">About Us</a>
-				<a href="#">SERVICE</a>
-				<a href="#">Contect</a>
+				<ul>
+					<li>
+						<a href="#">HOME</a>
+					</li>
+					<li>
+						<a href="#">About Us</a>
+					</li>
+					<li>
+						<a href="#">SERVICE</a>
+						<ul>
+							<li><a href="#">PRO 태블릿</a></li>
+							<li><a href="#">PRO 테이블오더</a></li>
+							<li><a href="#">PRO 키오스크</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Contect</a>
+					</li>
+				</ul>
 			</div>
         </header>
         <section class="sub_sec01">
@@ -41,9 +57,9 @@
 				<p>오프라인에 설치된 PRLO를 통해<br>
 					온·오프라인 통합 마케팅을 진행 합니다.</p>
 				<p>단순 홍보가 아닌 고객 참여 홍보로 DB 수집<br>
-					저렴한 광고비, 지역타겟설정, 퍼미션 센터를 통한 DB필터 기능까지</p>
+					저렴한 광고비, 지역타겟설정, <br>퍼미션 센터를 통한 DB필터 기능까지</p>
 				<img src="resource/images/sub02_img_sec01_2.png" alt="">
-				<p>오프라인 광고는 이제 PRLO의 시대</p>
+				<p>오프라인 광고는 이제 <br>PRLO의 시대</p>
 			</div>
         </section>
         <section class="sub_sec02">
@@ -71,7 +87,7 @@
                 <script>
                 var swiper = new Swiper(".mySwiper03", {
                     slidesPerView: "1",
-                    spaceBetween: 54,
+                    spaceBetween: 22,
                     pagination: {
                     el: ".swiper-pagination03",
                     clickable: true,
