@@ -211,7 +211,7 @@ section[class*="sub_sec"] h2{font-size: 64px;font-weight: 900;line-height: 81px;
 .sub01 .sub_sec03 .box_form{margin-top: 232px;text-align: center;}
 .sub01 .sub_sec03 .box_form h2{font-size: 100px;font-weight: 900;line-height: 120px;}
 .sub01 .sub_sec03 .box_form .grp_btn{margin-top: 63px;display: flex;align-items: center;justify-content: center;}
-.sub01 .sub_sec03 .box_form .grp_btn button{display: inline-flex;align-items: center;justify-content: center;height: 155px;width: 600px;border:1px solid #000;background: #C7DA01;font-size: 36px;font-weight: 900;line-height: 120px;}
+.sub01 .sub_sec03 .box_form .grp_btn button{display: inline-flex;align-items: center;justify-content: center;height: 155px;width: 600px;border:1px solid #000;color:#000;background: #C7DA01;font-size: 36px;font-weight: 900;line-height: 120px;}
 .sub01 .sub_sec03 .box_form .grp_btn button:before{content: '';display: inline-block;width: 31px;height: 45px;background: url(../images/sub01_ico_sec03_call.png) no-repeat center;margin-right: 14px;}
 .sub01 .sub_sec03 .box_form .grp_btn button+button{margin-left: 73px;}
 .sub01 .sub_sec03 .box_form .grp_btn button+button:before{content: '';display: inline-block;width: 51px;height: 47px;background: url(../images/sub01_ico_sec03_kakao.png) no-repeat center;margin-right: 14px;}
