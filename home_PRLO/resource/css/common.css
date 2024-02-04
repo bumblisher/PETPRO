@@ -556,4 +556,17 @@ body:has(.mob)::after{min-width: auto;}
 .sub02 .mySwiper03 .swiper-pagination03{bottom: 10px;}
 .sub02 .swiper-pagination-bullet{width: 10px;height: 10px;margin: 0 4px !important;}
 
-.sub02 .sub_sec03{padding: 66px 0 88px;background-size: 334px;background-position: top 150px center;}
+.sub02 .sub_sec03{padding: 66px 0 88px;border-bottom-width: 2px;background-size: 334px;background-position: top 150px center;}
+.sub02 .sub_sec03 p{font-size: 16px;line-height: 27px;text-align: center;margin-bottom: 0;}
+.sub02 .sub_sec03 .txt_main{font-size: 20px;margin: 440px 0 20px;}
+
+.sub02 .sub_sec04{padding-top: 66px;}
+.sub02 .sub_sec04 .txt_main{margin-top: 40px;font-size: 20px;line-height: 33px;}
+.sub02 .sub_sec04 ul{margin-top: 47px;}
+.sub02 .sub_sec04 ul li{height: 450px;padding: 40px 20px;}
+.sub02 .sub_sec04 ul li p{font-size: 16px;line-height: 25px;}
+.sub02 .sub_sec04 ul li p.tit{font-size: 48px;margin-bottom: 19px;}
+.sub02 .sub_sec04 ul li:nth-child(1){background-size: 261px;background-position: bottom -1px center;}
+.sub02 .sub_sec04 ul li:nth-child(2){background-size: 214px;background-position: bottom -1px center;}
+.sub02 .sub_sec04 ul li:nth-child(3){background-size: 241px;background-position: bottom -1px center;}
+.sub02 .sub_sec04 ul li:nth-child(4){background-size: 321px;background-position: bottom -1px center;border-bottom: 0;}
