@@ -267,17 +267,21 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .tab_wrap ul li:nth-child(3) a::before{background: url(../images/ico_tabwrap03.png) center no-repeat; background-size: 60px;}
 .tab_wrap ul li:nth-child(4) a::before{background: url(../images/ico_tabwrap04.png) center no-repeat; background-size: 60px;}
 .tab_wrap ul li:nth-child(5) a::before{background: url(../images/ico_tabwrap05.png) center no-repeat; background-size: 60px;}
+
 .tab_wrap ul li a .grp_badge{display: flex;align-items: center;gap: 6px;margin-top: 10px;}
 .tab_wrap ul li a .grp_badge .badge{display: flex;align-items: center;justify-content: center;padding:10px;height: 38px;border-radius: 30px;border:1px solid #2962F6;color:#2962F6;box-sizing: border-box;font-size: 13px;font-weight: 700;}
 .tab_wrap ul li a p.tit{margin-top: 10px;font-size: 15px;font-weight: 600;line-height: 140%;text-align: center;}
 .tab_wrap ul li.on a{border: 3px solid #2962F6;color:#2962F6;}
 .tab_wrap ul li.on a .grp_badge .badge{background: #2962F6;color:#fff}
 .tab_wrap ul li.on a p.tit{font-weight: 700;}
+.tab_wrap ul li.kakao a{background: #FFE812;}
+.tab_wrap ul li.kakao a p.tit{color:#343A40;}
+.tab_wrap ul li.kakao a .grp_badge .badge{color:#000;border-color:#000;}
 
 .cont_wrap{padding-top: 50px;}
 .cont_wrap .box_text h2{font-size: 32px;line-height: 130%;margin-bottom: 20px;}
-.cont_wrap .box_text p{font-size: 18px;font-weight: 500;line-height: 140%;color:#868E96}
-.cont_wrap .box_text p+p{margin-top: 30px;}
+.cont_wrap .box_text > p{font-size: 18px;font-weight: 500;line-height: 140%;color:#868E96}
+.cont_wrap .box_text > p+p{margin-top: 30px;}
 .cont_wrap .box_layout{gap: 104px;}
 .cont_wrap .box_layout .box_form{position: relative;flex:none;width: 376px;padding:0 30px;box-sizing: border-box;}
 .cont_wrap .box_layout .box_form:before{content: '';position: absolute;left:-52px;top:0;border-left: 1px solid #E9ECEF;height: 100%;}
@@ -287,6 +291,18 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .cont_wrap .box_layout .box_form.complate .txt .txt_blue{color:#2962F6;font-weight: 700;}
 .cont_wrap .box_layout .box_form.complate .txt_sub{margin-top: 5px;font-size: 15px;font-weight: 600;line-height: 140%;color:#495057}
 .cont_wrap .box_layout .box_form.complate .btn_cm{margin-top: 20px;}
+
+.list_compare{display: grid;grid-template-columns: 1fr 1fr;gap:30px 20px}
+.list_compare > li{padding:25px;border-radius: 10px;background: #F1F3F5;min-height: 258px;box-sizing: border-box;}
+.list_compare > li .tit{font-size: 20px;font-weight: 500;}
+.list_compare > li .tit strong{font-weight: 600;color:#2962F6}
+.list_compare > li ul{margin-top: 15px;}
+.list_compare > li ul li{font-size: 18px;padding-left: 30px;background: url(../images/ico_list_compare.svg) no-repeat left center;}
+.list_compare > li ul li + li{margin-top: 10px;}
+.list_compare > li ul li .txt{font-weight: 400;line-height: 27px;}
+.list_compare > li ul li .txt span{font-weight: 500;}
+.list_compare > li ul li .txt_sub{font-size: 13px;line-height: 20px;color:#0064FF}
+
 
 /* 반응형 - 태블릿 */
 @media screen and (max-width: 1280px) and (min-width: 962px) {
@@ -363,6 +379,7 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
     .list_main.type01 > li p.arrow::after{background-size: 17px;}
     .list_main.type01 > li ul{margin-top: 8px;}
     .list_main.type01 > li ul li{font-size: 11px;line-height: 14px;}
+    .list_main.type01 > li ul li:before{top:4px}
 
     .list_main.type02 > li{height: 196px;}
     .list_main.type02 > li p.txt_sub{font-size: 12px;margin-top: 7px;}
@@ -421,8 +438,8 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 
     .cont_wrap{padding-top: 35px;}
     .cont_wrap .box_text h2{font-size: 22px;margin-bottom: 14px;}
-    .cont_wrap .box_text p{font-size: 12px;}
-    .cont_wrap .box_text p+p{margin-top: 21px;}
+    .cont_wrap .box_text > p{font-size: 12px;}
+    .cont_wrap .box_text > p+p{margin-top: 21px;}
     .cont_wrap .box_layout{gap: 79px;}
     .cont_wrap .box_layout .box_form{width: 257px;padding: 0 14px;}
     .cont_wrap .box_layout .box_form::before{left: -39px;}
@@ -549,8 +566,8 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 
     .cont_wrap{padding-top: 30px;}
     .cont_wrap .box_text h2{font-size: 20px;margin-bottom: 10px;}
-    .cont_wrap .box_text p{font-size: 15px;}
-    .cont_wrap .box_text p+p{margin-top: 10px;}
+    .cont_wrap .box_text > p{font-size: 15px;}
+    .cont_wrap .box_text > p+p{margin-top: 10px;}
     .cont_wrap .box_layout{gap: 30px;padding: 0 20px;box-sizing: border-box;}
     .cont_wrap .box_layout .box_form{width: 100%;border:1px solid #DEE2E6;border-radius: 10px;padding:20px 16px;box-sizing: border-box;order:-1}
     .cont_wrap .box_layout .box_form::before{display: none;}
