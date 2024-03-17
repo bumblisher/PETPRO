@@ -367,12 +367,14 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .sec_ins02 .list_point{width: 438px;}
 .sec_ins02 .list_point .tit{display: flex;align-items: center;justify-content: center;font-size: 26px;font-weight: 900;line-height: 130%;color: #2962F6;}
 .sec_ins02 .list_point .tit::before{content: '';width: 58px;height: 50px;display: inline-block;margin-right: 15px;background: url(../images/img_heart.png) no-repeat center;}
-.sec_ins02 .list_point ul li{margin-top: 20px;text-align: center;background: #fff;padding: 28px;box-sizing: border-box;border-radius: 100px;}
+.sec_ins02 .list_point ul li{display: flex;align-items: center;justify-content: center;flex-direction: column;margin-top: 20px;text-align: center;background: #fff;padding: 10px 28px;box-sizing: border-box;border-radius: 100px;height: 110px;}
 .sec_ins02 .list_point ul li strong{font-size: 18px;font-weight: 700;line-height: 130%;color: #FF6552;}
 .sec_ins02 .list_point ul li .txt{margin-top: 5px;font-size: 20px;font-weight: 600;line-height: 130%;color: #495057;}
+.sec_ins02 .list_point ul li .txt span{display: block;font-size: 16px;line-height: 1;}
 .sec_ins02 .list_point.type02{width: 397px}
-.sec_ins02 .list_point.type02 li{position: relative;display: flex;align-items: center;gap: 10px;padding: 0 31px;height: 110px;text-align: left;}
+.sec_ins02 .list_point.type02 li{flex-direction: row;position: relative;display: flex;align-items: center;gap: 10px;padding: 0 31px;height: 110px;text-align: left;}
 .sec_ins02 .list_point.type02 li:before{content:'';position:absolute;left:0;bottom:0;width: 30px;height: 24px;background:url(../images/bg_listpoint_talk.png) no-repeat left bottom;}
+.sec_ins02 .list_point.type02 li:nth-child(2){text-align: right;}
 .sec_ins02 .list_point.type02 li:nth-child(2)::before{left:auto;right: 0;transform: rotateY(180deg);}
 .sec_ins02 .list_point.type02 li img{flex: none;}
 .sec_ins02 .list_point.type02 ul li strong{font-size: 20px;}
@@ -597,9 +599,9 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
     
     .sec_ins01 .section_inner{padding: 35px 0;}
     .sec_ins01 .tit{font-size: 17px;}
-    .sec_ins01 .tit + img{margin: 20px auto 0;width: 33%;}
+    .sec_ins01 .tit + img{margin: 20px auto 0;height: 150px;}
     .sec_ins01 .img_check{margin-top: 30px;}
-    .sec_ins01 .img_check img{width: 33%;}
+    .sec_ins01 .img_check img{height: 263px;}
     .sec_ins01 .img_check .list_check{margin-left: 60px;}
     .sec_ins01 .img_check .list_check .tit{font-size: 21px;}
     .sec_ins01 .img_check .list_check .tit span{font-size: 15px}
@@ -810,9 +812,9 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 
     .sec_ins01 .section_inner{padding: 35px 0;}
     .sec_ins01 .tit{font-size: 15px;}
-    .sec_ins01 .tit + img{margin: 20px auto 0;width: 250px;}
+    .sec_ins01 .tit + img{margin: 20px auto 0;height: 100px;}
     .sec_ins01 .img_check{flex-direction: column;margin-top: 30px;}
-    .sec_ins01 .img_check img{width: 300px;}
+    .sec_ins01 .img_check img{height: 266px;}
     .sec_ins01 .img_check .list_check{margin: 30px auto 0;text-align: center;}
     .sec_ins01 .img_check .list_check .tit{font-size: 21px;text-align: center;}
     .sec_ins01 .img_check .list_check .tit span{font-size: 15px}
