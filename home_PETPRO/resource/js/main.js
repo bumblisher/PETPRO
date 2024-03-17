@@ -5,6 +5,12 @@ $(function(){
 		$("html,body").toggleClass("menu_on");
     }); 
 	
+	//메인 확인하기버튼
+	$("#mainFormBtn").on("click", function(){
+        $(".main_form").hide();
+		$(".main_result").show();
+    }); 
+	
 });
 
 
