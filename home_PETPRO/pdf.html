@@ -25,12 +25,26 @@
         .grp_flex > .grp_form.cal{width: 135px;flex:none}
         .grp_input{display: flex;align-items: center;}
         .grp_input input[type="text"]{width:100%;padding:0 15px;height: 5vw;max-height: 100px;background: #F1F3F5;border-radius: 10px;flex:1;box-sizing: border-box;font-weight: 400;font-size: 21px;}
-
         .box_pdf.mobile{display: none;}
+        .pdf_plan{position: relative;}
+        .pdf_plan ul{width: 82%;position: absolute;left:9%;bottom: 11.5%;display: flex;}
+        .pdf_plan ul li{flex:1;text-align: center;font-size: 22px;font-weight: 700;}
+        .pdf_plan ul li.samsung{color: #004599;}
+        .pdf_plan ul li.kb{color: #7C7365;}
+        .pdf_plan ul li.db{color: #007E41;}
+        .pdf_plan ul li.meritz{color: #000000;}
+        .pdf_plan ul li.hyundai{color: #071F53;}
+        
+        .pdf_plan.type2 ul{bottom: 6%;}
+
+        .pdf_plan.type3 ul{bottom: 5%;width: 76%;left: 12%;}
+
         @media screen and (max-width: 1280px) and (min-width: 962px) {
             .grp_flex+.grp_flex{margin-top: 2%;}
             .grp_form > p.tit{font-size: 20px;}
             .grp_input input[type="text"]{font-size: 15px;}
+
+            .pdf_plan ul li{font-size: 16px}
         }
         @media screen and (max-width: 961px) {
             .box_pdf.pc{display: none;}
@@ -39,10 +53,36 @@
             .grp_form > p.tit{font-size: 20px;}
             .grp_input input[type="text"]{height: 10vw;max-height: 60px;font-size: 15px;}
             .grp_form+.grp_form{margin-top: 5%;}
+
+            .mo_box_price{position: relative;}
+            .mo_box_price p{position: absolute;left: 0;right:0;top: 64%;font-size: 22px;font-weight: 700;text-align: center;}
+            .mo_box_price p.samsung{color: #004599;}
+            .mo_box_price p.kb{color: #7C7365;}
+            .mo_box_price p.db{color: #007E41;}
+            .mo_box_price p.meritz{color: #000000;}
+            .mo_box_price p.hyundai{color: #071F53;}
+
+            .mo_box_price:nth-of-type(2) p{top:64%}
+            .mo_box_price:nth-of-type(3) p{top:52.5%}
+            .mo_box_price:nth-of-type(4) p{top:88%}
+            .mo_box_price:nth-of-type(5) p{top:64.2%}
+            .mo_box_price:nth-of-type(6) p{top:88%}
+            .mo_box_price:nth-of-type(7) p{top:69%}
+            .mo_box_price:nth-of-type(8) p{top:57%}
+            .mo_box_price:nth-of-type(9) p{top:92.5%}
+            .mo_box_price:nth-of-type(10) p{top:69%}
+            .mo_box_price:nth-of-type(11) p{top:92.5%}
+            .mo_box_price:nth-of-type(12) p{top:85.5%}
+            .mo_box_price:nth-of-type(13) p{top:93.8%}
         }
         @media screen and (max-width: 560px) {
             .grp_form > p.tit{font-size: 4vw;}
 
+            .mo_box_price p{font-size: 20px;}
+        }
+        
+        @media screen and (max-width: 460px) {
+            .mo_box_price p{font-size: 16px;}
         }
     </style>
 </head>
@@ -109,9 +149,33 @@
                 </div>
             </div>
         </div>
-        <img src="resource/images/pdf/7.png" alt="">
-        <img src="resource/images/pdf/8.png" alt="">
-        <img src="resource/images/pdf/9.png" alt="">
+        <div class="pdf_plan">
+            <img src="resource/images/pdf/7.png" alt="">
+            <ul>
+                <li class="samsung">000,000원</li>
+                <li class="kb">000,000원</li>
+                <li class="db">000,000원</li>
+                <li class="meritz">000,000원</li>
+                <li class="hyundai">000,000원</li>
+            </ul>
+        </div>
+        <div class="pdf_plan type2">
+            <img src="resource/images/pdf/8.png" alt="">
+            <ul>
+                <li class="samsung">000,000원</li>
+                <li class="kb">000,000원</li>
+                <li class="db">000,000원</li>
+                <li class="meritz">000,000원</li>
+                <li class="hyundai">000,000원</li>
+            </ul>
+        </div>
+        <div class="pdf_plan type3">
+            <img src="resource/images/pdf/9.png" alt="">
+            <ul>
+                <li class="samsung">000,000원</li>
+                <li class="db">000,000원</li>
+            </ul>
+        </div>
         <img src="resource/images/pdf/10.png" alt="">
         <img src="resource/images/pdf/11.png" alt="">
         <img src="resource/images/pdf/12.png" alt="">
@@ -207,18 +271,54 @@
                 </div>
             </div>
         </div>
-        <img src="resource/images/pdf/m-8.png" alt="">
-        <img src="resource/images/pdf/m-9.png" alt="">
-        <img src="resource/images/pdf/m-10.png" alt="">
-        <img src="resource/images/pdf/m-11.png" alt="">
-        <img src="resource/images/pdf/m-12.png" alt="">
-        <img src="resource/images/pdf/m-13.png" alt="">
-        <img src="resource/images/pdf/m-14.png" alt="">
-        <img src="resource/images/pdf/m-15.png" alt="">
-        <img src="resource/images/pdf/m-16.png" alt="">
-        <img src="resource/images/pdf/m-17.png" alt="">
-        <img src="resource/images/pdf/m-18.png" alt="">
-        <img src="resource/images/pdf/m-19.png" alt="">
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-8.png" alt="">
+            <p class="samsung">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-9.png" alt="">
+            <p class="kb">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-10.png" alt="">
+            <p class="db">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-11.png" alt="">
+            <p class="meritz">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-12.png" alt="">
+            <p class="hyundai">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-13.png" alt="">
+            <p class="samsung">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-14.png" alt="">
+            <p class="kb">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-15.png" alt="">
+            <p class="db">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-16.png" alt="">
+            <p class="meritz">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-17.png" alt="">
+            <p class="hyundai">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-18.png" alt="">
+            <p class="samsung">000,000원</p>
+        </div>
+        <div class="mo_box_price">
+            <img src="resource/images/pdf/m-19.png" alt="">
+            <p class="db">000,000원</p>
+        </div>
         <img src="resource/images/pdf/m-20.png" alt="">
         <img src="resource/images/pdf/m-21.png" alt="">
         <img src="resource/images/pdf/m-22.png" alt="">
