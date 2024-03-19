@@ -10,7 +10,18 @@ $(function(){
         $(".main_form").hide();
 		$(".main_result").show();
     }); 
-	
+
+	//서브 신청버튼
+	$("#btnForm").on("click", function(){
+		$(".center_form").hide();
+		$(".center_done").show();
+	}); 
+
+	//서브 돌아오기 버튼
+	$("#btnDone").on("click", function(){
+		$(".center_form").show();
+		$(".center_done").hide();
+	}); 
 });
 
 
