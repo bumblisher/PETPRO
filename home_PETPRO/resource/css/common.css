@@ -425,7 +425,7 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .list_center li:nth-child(2):before{background: url(../images/ico_list_center02.svg) no-repeat center;}
 .list_center li:nth-child(3):before{background: url(../images/ico_list_center03.svg) no-repeat center;}
 .list_center li:nth-child(4):before{background: url(../images/ico_list_center04.svg) no-repeat center;}
-.center_grp_img img + img{margin-top: 30px;}
+
 .list_doc{display: flex;align-items: center;gap: 15px;}
 .list_doc li{display: inline-flex;align-items: center;justify-content: center;border-radius: 20px;height: 70px;flex:1;box-sizing: border-box;font-size: 24px;font-weight: 600;line-height: 150%;}
 .list_doc li:nth-child(1){background: #E9F8FE;color: #004599;}
@@ -434,7 +434,36 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .list_doc li:nth-child(4){background: #FAF6F1;color: #7C7365;}
 .list_doc li:nth-child(5){background: #FFEEF4;color: #000000;}
 
-.center_grp_img img.mo{display: none;}
+.box_receipt{border-radius: 20px;padding:50px;box-sizing: border-box;display: flex;}
+.box_receipt .grp_txt{max-width: 360px;}
+.box_receipt + .box_receipt{margin-top: 30px;}
+.box_receipt h3{font-size: 30px;line-height: 45px;font-weight: 600;color:#0064FF;margin-bottom: 30px;}
+.box_receipt .infobox{color:#131313;margin-bottom: 16px;font-size: 15px;line-height: 21px;font-weight: 500;text-align: center;padding:4px;background: #AFF5F8;border-radius: 8px;}
+.box_receipt ul li .date{font-size: 15px;line-height: 21px;font-weight: 500;color:#131313}
+.box_receipt ul li .calc{margin-top: 8px;}
+.box_receipt ul li .calc span{font-size: 14px;line-height: 19.6px;font-weight: 300;letter-spacing: -0.5px;}
+.box_receipt ul li .calc .tit{font-weight: 600;}
+.box_receipt ul li + li{border-top:1px solid #C7C7C7;margin-top: 16px;padding-top: 16px;}
+.box_receipt .txt_chk{font-size: 15px;font-weight: 300;line-height: 21px;margin-top: 2px;}
+.box_receipt .txt_chk strong{font-weight: 500;}
+.box_receipt .txt_chk:before{content: '';width: 25px;height: 27px;display: inline-block;margin-right: 6px;vertical-align: text-bottom;}
+.box_receipt .txt_chk.pink:before{background: url(../images/ico_txtchk_pink.svg) no-repeat center;}
+.box_receipt .txt_chk.pink strong{color:#ED6EA7}
+.box_receipt .txt_chk.purple:before{background: url(../images/ico_txtchk_purple.svg) no-repeat center;}
+.box_receipt .txt_chk.purple strong{color:#69248A}
+.box_receipt .txt_chk.violet:before{background: url(../images/ico_txtchk_violet.svg) no-repeat center;}
+.box_receipt .txt_chk.violet strong{color:#CB26F5}
+.box_receipt .sub{font-size: 9px;line-height: 13.5px;font-weight: 500;margin-top: 3px;color:#0064FF}
+.box_receipt .total{margin-top: 16px;font-size: 22px;font-weight: 400;line-height: 33px;}
+.box_receipt .total strong{color:#0064FF}
+.box_receipt .grp_img{width: 264px;margin-left: auto;}
+.box_receipt .grp_img img{width: 100%;}
+.box_receipt .grp_img p{text-align: center;margin-top: 20px;font-size: 12px;font-weight: 500;line-height: 18px;color:#343A40;letter-spacing: -0.2px;}
+.box_receipt.blue{background: #EDF4FF;}
+.box_receipt.violet{background: #FAEEFD;}
+.box_receipt.violet h3{color:#CB26F5}
+.box_receipt.violet .total strong{color:#CB26F5}
+
 .grp_input.file{position: relative;}
 .grp_input.file input{padding-right: 60px;}
 .grp_input.file .btn_file{padding: 8px;border-radius: 4px;background: #2962F6;color:#fff;font-size: 15px;position: absolute;right:15px;}
@@ -713,6 +742,21 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
     .center_done .txt{font-size: 14px;margin-top: 20px;}
     .center_done .sub{font-size: 12px;}
 
+    .box_receipt{border-radius: 14px;padding:35px;}
+    .box_receipt .grp_txt{max-width: 260px;}
+    .box_receipt + .box_receipt{margin-top: 21px;}
+    .box_receipt h3{font-size: 21px;line-height: 31.5px;margin-bottom: 21px;}
+    .box_receipt .infobox{margin-bottom: 12px;font-size: 11px;line-height: 15.4px;padding:3px;border-radius: 6px;}
+    .box_receipt ul li .date{font-size: 11px;line-height: 15.4px;}
+    .box_receipt ul li .calc{margin-top: 6px;}
+    .box_receipt ul li .calc span{font-size: 10px;line-height: 14px;}
+    .box_receipt ul li + li{margin-top: 12px;padding-top: 12px;}
+    .box_receipt .txt_chk{font-size: 11px;line-height: 14px;margin-top: 1px;}
+    .box_receipt .txt_chk:before{content: '';width: 17px;height: 18px;margin-right: 4px;background-size: contain !important;}
+    .box_receipt .sub{font-size: 9px;line-height: 13.5px;font-weight: 500;margin-top: 3px;color:#0064FF}
+    .box_receipt .total{margin-top: 12px;font-size: 15px;line-height: 22px;}
+    .box_receipt .grp_img{width: 185px;}
+    .box_receipt .grp_img p{margin-top: 14px;font-size: 10px;line-height: 15px;letter-spacing: -0.8px;}
 }
 /* 반응형 - 모바일 */
 @media screen and (max-width: 961px) {
@@ -942,4 +986,19 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
     .list_doc{flex-direction: column;}
     .list_doc li{border-radius: 20px;height: 70px;font-size: 24px;flex:none;width: 100%;}
     .center_done img{max-width: 200px;width: 100%;}
+
+    .box_receipt{padding:20px 22px;flex-direction: column;align-items: center;}
+    .box_receipt + .box_receipt{margin-top: 10px;}
+    .box_receipt h3{font-size: 20px;line-height: 30px;margin-bottom: 10px;}
+    .box_receipt .infobox{max-width: 250px;font-size: 12px;line-height: 16.8px;}
+    .box_receipt ul li .date{font-size: 12px;line-height: 16.8px;}
+    .box_receipt ul li .calc{margin-top: 5px;}
+    .box_receipt ul li .calc span{font-size: 12px;line-height: 16.8px;}
+    .box_receipt ul li + li{margin-top: 10px;padding-top: 10px;}
+    .box_receipt .txt_chk{font-size: 12px;line-height: 16.8px;margin-top: 2px;}
+    .box_receipt .txt_chk:before{content: '';width: 17px;height: 18px;margin-right: 4px;background-size: contain !important;}
+    .box_receipt .sub{font-size: 10px;line-height: 15px;margin-top: 2px;}
+    .box_receipt .total{margin-top: 10px;font-size: 16px;line-height: 24px;}
+    .box_receipt .grp_img{width: 185px;margin: 20px auto 0;}
+    .box_receipt .grp_img p{margin-top: 13px;font-size: 10px;line-height: 15px;letter-spacing: -0.8px;}
 }
