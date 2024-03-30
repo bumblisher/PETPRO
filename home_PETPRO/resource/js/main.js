@@ -11,6 +11,13 @@ $(function(){
 		$(".main_result").show();
     }); 
 
+	//메인 상담예약시간
+	$("#mainFormBtn2").on("click", function(){
+        $(".result01").hide();
+		$(".result02").show();
+    }); 
+	
+
 	//서브 신청버튼
 	$("#btnForm").on("click", function(){
 		$(".center_form").hide();
@@ -22,6 +29,13 @@ $(function(){
 		$(".center_form").show();
 		$(".center_done").hide();
 	}); 
+
+	// 보상약관 서브탭
+	$(".subtab_wrap ul li button").on("click", function(){
+		$(".subtab_wrap ul li").removeClass("on");
+		$(this).parent().addClass("on");
+	}); 
+	
 });
 
 
