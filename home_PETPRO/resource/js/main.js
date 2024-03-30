@@ -34,6 +34,13 @@ $(function(){
 	$(".subtab_wrap ul li button").on("click", function(){
 		$(".subtab_wrap ul li").removeClass("on");
 		$(this).parent().addClass("on");
+		if($(this).parent().index() == 0){
+			$(".subtab_cont.dog").show();
+			$(".subtab_cont.cat").hide();
+		}else if($(this).parent().index() == 1){
+			$(".subtab_cont.dog").hide();
+			$(".subtab_cont.cat").show();
+		}
 	}); 
 	
 });

@@ -368,7 +368,7 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .subtab_wrap ul li button::before{content: '';display: block;width: 40px;height: 36px;background: url("../images/img_radio_dog.png") no-repeat center;background-size: contain;box-sizing: border-box;margin-right: 5px;}
 .subtab_wrap ul li:last-child button{margin-right: 0;}
 .subtab_wrap ul li:last-child button::before{width: 47px;background: url("../images/img_radio_cat.png") no-repeat center;background-size: contain;}
-.subtab_cont p{font-size: 15px;line-height: 150%;}
+.subtab_cont p{font-size: 15px;line-height: 150%;letter-spacing: -0.3px;}
 .subtab_cont p + p{margin-top: 5px;}
 .subtab_cont .big_tit{font-size: 25px;line-height: 150%;font-weight: 600;}
 .subtab_cont .tit{margin-top: 15px;font-weight: 700;}
@@ -376,6 +376,7 @@ footer .f_btn a+a{background: #2F3B6B url(../images/img_footer02.png) no-repeat 
 .subtab_cont table {font-size: 12px;margin: 15px 0;}
 .subtab_cont table th{background: #343A40;color:#fff;padding: 10px 15px;font-weight: 700;}
 .subtab_cont table td{background: #F1F3F5;border:1px solid #DEE2E6;padding: 10px 15px;}
+.subtab_cont.cat{display: none;}
 
 
 
