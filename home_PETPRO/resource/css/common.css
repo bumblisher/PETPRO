@@ -166,7 +166,7 @@ article h2{margin-bottom: 14px;font-size: 26px;font-weight: 700;line-height: 140
 .box_layout .box_form .btn_cm{margin: 15px auto 0;display: flex;align-items: center;justify-content: center;width: 180px;height: 55px;border-radius: 40px;background: #2962F6;color:#fff;font-size: 16px;font-weight: 700;}
 .box_layout .box_form .btn_cm.gray{background: #ADB5BD;width: 120px;}
 .box_layout .box_form .grp_btn{display: flex;gap:10px}
-.box_layout .box_form .main_result{display: block;}
+.box_layout .box_form.type02 .main_result{display: block;}
 
 
 .list_main{display: flex;gap: 20px;}
