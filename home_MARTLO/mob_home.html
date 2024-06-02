@@ -315,22 +315,22 @@
 	<div class="swiper mySwiper banner">
 		<ul class="swiper-wrapper">
 			<li class="swiper-slide">
-				<img src="resource/images/img_banner01.png" alt="">
+				<img src="resource/images/mo_img_banner01.png" alt="">
 			</li>
 			<li class="swiper-slide">
-				<img src="resource/images/img_banner01.png" alt="">
+				<img src="resource/images/mo_img_banner01.png" alt="">
 			</li>
 		</ul>
-		<div class="swiper-pagination"></div>
+		<div class="swiper-pagination mob_swpg_banner"></div>
 	</div>
 	<!-- Initialize Swiper -->
 	<script>
-		var swiper = new Swiper(".mySwiper", {
+		var swiper = new Swiper(".banner", {
 			slidesPerView: 'auto',
 			initialSlide: 0,
 			spaceBetween: 50,
 			pagination: {
-				el: ".swiper-pagination2",
+				el: ".mob_swpg_banner",
 				clickable: true,
 			},
 		});
