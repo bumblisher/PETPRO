@@ -171,7 +171,7 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 /* mobile */
 .mob.wrap{max-width: 500px;min-width:360px;padding-top: 81px;}
 
-.mob header{height: 81px;padding: 10px 20px 20px;background: #C7DA01;}
+.mob header{height: 81px;padding: 10px 20px 10px;background: #C7DA01;}
 .mob header h1{height: 51px;background: #000;text-align: center;width: 100%;border-radius: 26px;}
 .mob header h1 a{width: 160px;height: 30px;background-size: contain;text-align: center;}
 
@@ -273,7 +273,7 @@ footer .grp_copy .right{margin-left: auto;font-weight: 600;font-size: 14px;color
 .mob .sec07 .box_form ul li + li{margin-top: 20px;}
 .mob .sec07 .box_form ul li select,
 .mob .sec07 .box_form ul li input,
-.mob .sec07 .box_form ul li textarea{padding: 0 10px;font-size: 14px; -webkit-appearance: none;appearance: none;}
+.mob .sec07 .box_form ul li textarea{padding: 0 10px;font-size: 14px; -webkit-appearance: none;appearance: none;border-radius:0;}
 .mob .sec07 .box_form ul li select{height: 55px;background-size: 12px;}
 .mob .sec07 .box_form ul li input{height: 55px;}
 .mob .sec07 .box_form ul li textarea{padding: 10px;}
