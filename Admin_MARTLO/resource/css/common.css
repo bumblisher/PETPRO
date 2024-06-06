@@ -252,7 +252,7 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .grp_form + .grp_form + .grp_form + .grp_form {margin-left: 0;}
 .grp_form .cont { flex:none; display: flex; align-items: center;} 
 .grp_form .cont + .cont { margin-top: 15px; } 
-.grp_form .cont .tit { width:130px; flex:none; color: #495057; font-size: 15px;font-weight: 700;} 
+.grp_form .cont .tit { width:130px; flex:none; color: #495057; font-size: 15px;font-weight: 700;padding-right: 30px;box-sizing: border-box;text-align: right;} 
 .grp_form .cont .tit.wide { width:195px } 
 .grp_form .cont .tit.vat{align-self: baseline;padding-top: 11px;;}
 .grp_form .cont input[type="text"],
@@ -293,6 +293,10 @@ header > .right .btn_noti.on{background: url(../images/btn_noti_on.svg) center n
 .grp_flex input[type="text"] + .grp_radio{margin-left: 30px;}
 .grp_flex > *+* { margin-left: 10px; } 
 .grp_flex.chk_col > label{flex:1;}
+
+.grp_img{display: flex;align-items: flex-end;flex-wrap: wrap;gap:6px;}
+.grp_img img{width: 150px;height: 150px;vertical-align: bottom;}
+.grp_img button{padding: 0 10px;font-size: 13px;height: 36px;border: 1px solid #DEE2E6;background: #fff;flex:none}
 
 .grp_tbl{width: 100%;/*margin-top: 15px;*/}
 .grp_tbl li+li{margin-top: 10px;}
