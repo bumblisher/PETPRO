@@ -1,0 +1,328 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resource/css/reset.css">
+    <link rel="stylesheet" href="../resource/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../resource/js/main.js"></script>
+    <title>MARTLO</title>
+</head>
+
+<body>
+    <div class="wrap page01">
+        <aside>
+            <h1 class="logo"><a href="#">MARTLO</a></h1>
+            <p class="tit">Notice</p>
+            <ul class="nav_noti">
+                <li><a href="#">최근 공지 1</a></li>
+                <li><a href="#">최근 공지 2</a></li>
+            </ul>
+            <p class="tit">Menu</p>
+            <ul class="nav_menu">
+                <li class="active">
+                    <a href="#">매출관리</a>
+                    <ul>
+                        <li class="on"><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">상품관리</a>
+                    <ul>
+                        <li><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">이미지관리</a>
+                    <ul>
+                        <li><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">배송관리</a>
+                    <ul>
+                        <li><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">가맹점 정보</a>
+                    <ul>
+                        <li><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">가맹점 정보</a>
+                    <ul>
+                        <li><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">마케팅대행</a>
+                    <ul>
+                        <li><a href="#">메뉴메뉴</a></li>
+                        <li><a href="#">메뉴메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+        <div class="container">
+            <header>
+                <button class="btn_menu"></button>
+                <p>접속IP : 218.237.65.1</p>
+                <div class="right">
+                    <span class="name">최은희 (A등급)님</span>
+                    <span>이 로그인하셨습니다 </span>
+                    <div class="grp_topmenu">
+                        <button class="btn_noti">알림</button>
+                        <button>공지사항</button>
+                        <button>로그아웃</button>
+                    </div>
+                </div>
+            </header>
+            <div class="tab_main">
+                <ul class="tab_main_list">
+                    <li><a href="#">타이틀</a><button class="close"></button></li>
+                    <li><a href="#">타이틀</a><button class="close"></button></li>
+                    <li><a href="#" class="on">배송 설정</a><button class="close"></button></li>
+                </ul>
+                <div class="tit_main">
+                    <h2>배송 설정</h2>
+                    <p>상점의 배송 정보를 관리합니다.</p>
+                    <div class="right">
+                        <button class="pt">저장하기</button> 
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="box_form">
+                        <div class="grp_form" style="flex:1">
+                            <h3>배송 정보</h3>
+                            <div class="cont">
+                                <p class="tit vat">밴드플래그</p>
+                                <ul class="list_btn_chk">
+                                    <li><label for="chk02-1"><input type="checkbox" name="" id="chk02-1">매일</label></li>
+                                    <li><label for="chk02-2"><input type="checkbox" name="" id="chk02-2" checked>월</label></li>
+                                    <li><label for="chk02-3"><input type="checkbox" name="" id="chk02-3">화</label></li>
+                                    <li><label for="chk02-4"><input type="checkbox" name="" id="chk02-4">수</label></li>
+                                    <li><label for="chk02-5"><input type="checkbox" name="" id="chk02-5">목</label></li>
+                                    <li><label for="chk02-6"><input type="checkbox" name="" id="chk02-6">금</label></li>
+                                    <li><label for="chk02-7"><input type="checkbox" name="" id="chk02-7">토</label></li>
+                                    <li><label for="chk02-8"><input type="checkbox" name="" id="chk02-8">일</label></li>
+                                </ul>
+                            </div>
+                            <div class="cont bt0">
+                                <p class="tit"></p>
+                                <div class="grp_flex">
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="chk01" id="chk01">
+                                        <label for="chk01">국, 공휴일 포함 배송 가능</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cont inner">
+                                <div class="grp_flex">
+                                    <p class="tit">배송 시간</p>
+                                    <div class="grp_radio big">
+                                        <input type="radio" name="radio01" id="radio01" checked>
+                                        <label for="radio01">정규 배송 시간</label>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="grp_flex">
+                                        <select name="" id="">
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                        </select>
+                                        <select name="" id="">
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                        </select>
+                                        <button class="btn_add"></button>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="grp_flex">
+                                        <select name="" id="">
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                        </select>
+                                        <select name="" id="">
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                        </select>
+                                        <button class="btn_del"></button>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="grp_flex">
+                                        <select name="" id="">
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                        </select>
+                                        <select name="" id="">
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                        </select>
+                                        <button class="btn_del"></button>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="grp_flex">
+                                        <select name="" id="">
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                        </select>
+                                        <select name="" id="">
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                        </select>
+                                        <button class="btn_del"></button>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="grp_flex">
+                                        <select name="" id="">
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                            <option value="">00시</option>
+                                        </select>
+                                        <select name="" id="">
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                            <option value="">00분</option>
+                                        </select>
+                                        <button class="btn_del"></button>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="box_noti red">
+                                        <p class="tit_noti">정규 배송 시간은 5개까지 설정가능합니다</p>
+                                    </div>
+                                </div>
+                                <div class="grp_flex" style="margin-top: 20px;">
+                                    <p class="tit"></p>
+                                    <div class="grp_radio big">
+                                        <input type="radio" name="radio01" id="radio02">
+                                        <label for="radio02">자율 배송 시간</label>
+                                    </div>
+                                </div>
+                                <div class="grp_flex">
+                                    <p class="tit"></p>
+                                    <div class="grp_flex">
+                                        <p>주문 후</p>
+                                        <select name="" id="" style="width: 80px;">
+                                            <option value="">00</option>
+                                            <option value="">00</option>
+                                            <option value="">00</option>
+                                        </select>
+                                        <p>시간 이내 배송</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form" style="flex:1">
+                            <h3></h3>
+                            <div class="cont">
+                                <p class="tit">배송 지역</p>
+                                <div class="grp_flex">
+                                    <input type="text" placeholder="동 이름을 검색하세요">
+                                    <button class="btn_cm">검색하기</button>
+                                </div>
+                            </div>
+                            <div class="cont bt0">
+                                <ul class="list_addr">
+                                    <li>서울특별시 중국 익선동<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중국 익선동<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중국 익선동<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중국 익선동<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중국 익선동<button class="btn_addr_del"></button></li>
+                                </ul>
+                            </div>
+                            <div class="cont bt0">
+                                <div class="box_noti red">
+                                    <p class="tit_noti">배송 지역은 5개까지 설정가능합니다</p>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit" style="width: 110px;">
+                                    배송 불가 지역<button class="btn_tooltip">
+                                        <div class="tooltip">
+                                            <p class="title">배송 불가 지역 :</p>
+                                            <p>내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</p>
+                                        </div></button>
+                                </p>
+                                <div class="grp_flex">
+                                    <input type="text" placeholder="주소를 입력하세요">
+                                    <button class="btn_cm">검색하기</button>
+                                </div>
+                            </div>
+                            <div class="cont bt0">
+                                <ul class="list_addr">
+                                    <li>서울특별시 중구 세종대로 110<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중구 세종대로 110<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중구 세종대로 110<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중구 세종대로 110<button class="btn_addr_del"></button></li>
+                                    <li>서울특별시 중구 세종대로 110<button class="btn_addr_del"></button></li>
+                                </ul>
+                            </div>
+                            <div class="cont bt0">
+                                <div class="box_noti red">
+                                    <p class="tit_noti">배달 불가 지역 설정시 해당 지역에서 상품 주문을 할 수 없습니다</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grp_form" style="flex:1">
+                            <h3>기타 설정</h3>
+                            <div class="cont">
+                                <p class="tit">배송사원  선택</p>
+                                <div class="grp_flex">
+                                    <select name="" id="">
+                                        <option value="">선택</option>
+                                        <option value="">선택</option>
+                                        <option value="">선택</option>
+                                    </select>
+                                    <button class="btn_cm">조회하기</button>
+                                </div>
+                            </div>
+                            <div class="cont bt0">
+                                <p class="tit"></p>
+                                <div class="grp_flex">
+                                    <textarea name="" id=""></textarea>
+                                </div>
+                            </div>
+                            <div class="cont">
+                                <p class="tit vat">배송 특이사항</p>
+                                <div class="grp_flex">
+                                    <textarea name="" id=""></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
