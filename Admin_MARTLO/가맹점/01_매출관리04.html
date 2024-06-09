@@ -91,31 +91,37 @@
                 <ul class="tab_main_list">
                     <li><a href="#">타이틀</a><button class="close"></button></li>
                     <li><a href="#">타이틀</a><button class="close"></button></li>
-                    <li><a href="#" class="on">포인트내역</a><button class="close"></button></li>
+                    <li><a href="#" class="on">정산내역</a><button class="close"></button></li>
                 </ul>
                 <div class="tit_main">
-                    <h2>포인트내역</h2>
+                    <h2>정산내역</h2>
                 </div>
+                <ul class="tab_cont_list">
+                    <li><button>매출 일보</button></li>
+                    <li class="on"><button>상품별 주문</button></li>
+                </ul>
                 <div class="content">
                     <div class="grp_form sch">
                         <div class="cont">
-                            <div class="grp_flex"> 
-                                <select type="text" style="width: 270px;">
+                            <div class="grp_flex">
+                                <p class="tit">기간</p>
+                                <select type="text" style="width: 135px;">
                                     <option value="">전체 기간</option>
                                     <option value="">선택</option>
                                     <option value="">선택</option>
                                     <option value="">선택</option>
                                 </select>
-                                <select type="text" style="width: 270px;">
-                                    <option value="">전체 검색 조건</option>
-                                    <option value="">선택</option>
-                                    <option value="">선택</option>
-                                    <option value="">선택</option>
-                                </select>
-                                <input type="text" name="" id="" style="width: 300px;" placeholder="검색어를 입력하세요.">
-                                <button class="btn_sch">검색하기</button>
-                            </div>
-                            <div class="grp_flex">
+                                <div class="grp_flex fn">
+                                    <div class="grp_cal">
+                                        <input type="text" name="" id="">
+                                        <button></button>
+                                    </div>
+                                    <span class="">-</span>
+                                    <div class="grp_cal">
+                                        <input type="text" name="" id="">
+                                        <button></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -125,8 +131,9 @@
                         <div class="board_tit">
                             <p>상품 목록 (총 <span>3</span> 개)</p>
                             <div class="right">
+                                <button>엑셀다운</button>
                                 <select type="text" style="width: 150px;">
-                                    <option value="">가입일시 최신순</option>
+                                    <option value="">주문수량 많은순</option>
                                     <option value="">등록일순</option>
                                     <option value="">등록일순</option>
                                     <option value="">등록일순</option>
@@ -136,75 +143,54 @@
                         <table class="tac">
                             <thead>
                                 <tr>
-                                    <th>가입일시</th>
-                                    <th>성명</th>
-                                    <th>주소</th>
-                                    <th>사용포인트</th>
-                                    <th>잔여포인트</th>
-                                    <th>충전횟수</th>
-                                    <th>알림톡 발송</th>
+                                    <th>상품명</th>
+                                    <th>상품단가</th>
+                                    <th>주문수량</th>
+                                    <th>판매금액</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>2024-06-06<br>
-                                        17:00:21</td>
-                                    <td>김복순</td>
-                                    <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
-                                    <td><button>발송</button></td>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
                                 </tr>
                                 <tr>
-                                    <td>2024-06-06<br>
-                                        17:00:21</td>
-                                    <td>김복순</td>
-                                    <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
-                                    <td><button>발송</button></td>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
                                 </tr>
                                 <tr>
-                                    <td>2024-06-06<br>
-                                        17:00:21</td>
-                                    <td>김복순</td>
-                                    <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
-                                    <td><button>발송</button></td>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
                                 </tr>
                                 <tr>
-                                    <td>2024-06-06<br>
-                                        17:00:21</td>
-                                    <td>김복순</td>
-                                    <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
-                                    <td><button>발송</button></td>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
                                 </tr>
                                 <tr>
-                                    <td>2024-06-06<br>
-                                        17:00:21</td>
-                                    <td>김복순</td>
-                                    <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
-                                    <td><button>발송</button></td>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
                                 </tr>
                                 <tr>
-                                    <td>2024-06-06<br>
-                                        17:00:21</td>
-                                    <td>김복순</td>
-                                    <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
-                                    <td><button>발송</button></td>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
+                                </tr>
+                                <tr>
+                                    <td>파스타 밀키트</td>
+                                    <td>3,900원</td>
+                                    <td>24</td>
+                                    <td>129,900원</td>
                                 </tr>
                             </tbody>
                         </table>

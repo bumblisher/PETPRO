@@ -99,13 +99,25 @@
                 <div class="content">
                     <div class="grp_form sch">
                         <div class="cont">
-                            <div class="grp_flex"> 
-                                <select type="text" style="width: 270px;">
+                            <div class="grp_flex">
+                                <p class="tit">기간</p>
+                                <select type="text" style="width: 135px;">
                                     <option value="">전체 기간</option>
                                     <option value="">선택</option>
                                     <option value="">선택</option>
                                     <option value="">선택</option>
                                 </select>
+                                <div class="grp_flex fn">
+                                    <div class="grp_cal">
+                                        <input type="text" name="" id="">
+                                        <button></button>
+                                    </div>
+                                    <span class="">-</span>
+                                    <div class="grp_cal">
+                                        <input type="text" name="" id="">
+                                        <button></button>
+                                    </div>
+                                </div>
                                 <select type="text" style="width: 270px;">
                                     <option value="">전체 검색 조건</option>
                                     <option value="">선택</option>
@@ -126,7 +138,7 @@
                             <p>상품 목록 (총 <span>3</span> 개)</p>
                             <div class="right">
                                 <select type="text" style="width: 150px;">
-                                    <option value="">가입일시 최신순</option>
+                                    <option value="">최근주문일 최신순</option>
                                     <option value="">등록일순</option>
                                     <option value="">등록일순</option>
                                     <option value="">등록일순</option>
@@ -137,11 +149,12 @@
                             <thead>
                                 <tr>
                                     <th>가입일시</th>
+                                    <th>최근주문일</th>
                                     <th>성명</th>
+                                    <th>휴대폰 번호</th>
                                     <th>주소</th>
-                                    <th>사용포인트</th>
-                                    <th>잔여포인트</th>
-                                    <th>충전횟수</th>
+                                    <th>총 주문금액</th>
+                                    <th>반품건</th>
                                     <th>알림톡 발송</th>
                                 </tr>
                             </thead>
@@ -149,61 +162,73 @@
                                 <tr>
                                     <td>2024-06-06<br>
                                         17:00:21</td>
+                                    <td>2024-06-06<br>
+                                        17:00:21</td>
                                     <td>김복순</td>
+                                    <td>010-3233-3333</td>
                                     <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
+                                    <td><a href="#">541,050원</a></td>
+                                    <td><a href="#">3</a></td>
                                     <td><button>발송</button></td>
                                 </tr>
                                 <tr>
                                     <td>2024-06-06<br>
                                         17:00:21</td>
+                                    <td>2024-06-06<br>
+                                        17:00:21</td>
                                     <td>김복순</td>
+                                    <td>010-3233-3333</td>
                                     <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
+                                    <td><a href="#">541,050원</a></td>
+                                    <td><a href="#">3</a></td>
                                     <td><button>발송</button></td>
                                 </tr>
                                 <tr>
                                     <td>2024-06-06<br>
                                         17:00:21</td>
+                                    <td>2024-06-06<br>
+                                        17:00:21</td>
                                     <td>김복순</td>
+                                    <td>010-3233-3333</td>
                                     <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
+                                    <td><a href="#">541,050원</a></td>
+                                    <td><a href="#">3</a></td>
                                     <td><button>발송</button></td>
                                 </tr>
                                 <tr>
                                     <td>2024-06-06<br>
                                         17:00:21</td>
+                                    <td>2024-06-06<br>
+                                        17:00:21</td>
                                     <td>김복순</td>
+                                    <td>010-3233-3333</td>
                                     <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
+                                    <td><a href="#">541,050원</a></td>
+                                    <td><a href="#">3</a></td>
                                     <td><button>발송</button></td>
                                 </tr>
                                 <tr>
                                     <td>2024-06-06<br>
                                         17:00:21</td>
+                                    <td>2024-06-06<br>
+                                        17:00:21</td>
                                     <td>김복순</td>
+                                    <td>010-3233-3333</td>
                                     <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
+                                    <td><a href="#">541,050원</a></td>
+                                    <td><a href="#">3</a></td>
                                     <td><button>발송</button></td>
                                 </tr>
                                 <tr>
                                     <td>2024-06-06<br>
                                         17:00:21</td>
+                                    <td>2024-06-06<br>
+                                        17:00:21</td>
                                     <td>김복순</td>
+                                    <td>010-3233-3333</td>
                                     <td>서울시 중구 신당동 103-23</td>
-                                    <td><a href="#">553,000</a></td>
-                                    <td>1,050</td>
-                                    <td><a href="#">54</a></td>
+                                    <td><a href="#">541,050원</a></td>
+                                    <td><a href="#">3</a></td>
                                     <td><button>발송</button></td>
                                 </tr>
                             </tbody>
