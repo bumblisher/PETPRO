@@ -296,19 +296,17 @@
                             <div class="cont">
                                 <p class="tit">배송사원 선택</p>
                                 <div class="grp_flex">
-                                    <select name="" id="">
-                                        <option value="">선택</option>
-                                        <option value="">선택</option>
-                                        <option value="">선택</option>
-                                    </select>
+                                    <input type="text" placeholder="배송사원 선택">
                                     <button class="btn_cm">조회하기</button>
                                 </div>
                             </div>
                             <div class="cont bt0">
-                                <p class="tit"></p>
-                                <div class="grp_flex">
-                                    <textarea name="" id=""></textarea>
-                                </div>
+                                <ul class="list_addr">
+                                    <li>홍길동 010-3030-3030<button class="btn_addr_del"></button></li>
+                                    <li>홍길동 010-3030-3030<button class="btn_addr_del"></button></li>
+                                    <li>홍길동 010-3030-3030<button class="btn_addr_del"></button></li>
+                                    <li>홍길동 010-3030-3030<button class="btn_addr_del"></button></li>
+                                </ul>
                             </div>
                             <div class="cont">
                                 <p class="tit vat">배송 특이사항</p>
@@ -321,6 +319,92 @@
                 </div>
             </div>
         </div>
+        <div class="popup on" style="width:560px;">
+            <div class="pop_header">
+                <h2>배송사원 선택</h2>
+            </div>
+            <div class="pop_cont">
+                <div class="grp_form sch">
+                    <div class="cont">
+                        <div class="grp_flex">
+                            <input type="text" name="" id="" style="" placeholder="배송사원 이름을 입력하세요">
+                            <button class="btn_sch">검색하기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_board scroll">
+                    <table class="tac">
+                        <colgroup>
+                            <col style="width: 50px;">
+                            <col>
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="check" id="check00">
+                                        <label for="check00"></label>
+                                    </div>
+                                </th>
+                                <th>담당자명</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="check" id="check01" checked>
+                                        <label for="check01"></label>
+                                    </div>
+                                </td>
+                                <td>홍길동 <span class="cl_gray">010-3030-3030</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="check" id="check02" checked>
+                                        <label for="check02"></label>
+                                    </div>
+                                </td>
+                                <td>홍길동 <span class="cl_gray">010-3030-3030</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="check" id="check03">
+                                        <label for="check03"></label>
+                                    </div>
+                                </td>
+                                <td>홍길동 <span class="cl_gray">010-3030-3030</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="check" id="check04">
+                                        <label for="check04"></label>
+                                    </div>
+                                </td>
+                                <td>홍길동 <span class="cl_gray">010-3030-3030</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="check" id="check05">
+                                        <label for="check05"></label>
+                                    </div>
+                                </td>
+                                <td>홍길동 <span class="cl_gray">010-3030-3030</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="pop_footer">
+                <button class="btn_cm gray">닫기</button>
+                <button class="btn_cm">선택하기</button>
+            </div>
+        </div>
+        <div class="dim"></div>
     </div>
 </body>
 
