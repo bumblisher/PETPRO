@@ -91,10 +91,10 @@
                 <ul class="tab_main_list">
                     <li><a href="#">타이틀</a><button class="close"></button></li>
                     <li><a href="#">타이틀</a><button class="close"></button></li>
-                    <li><a href="#" class="on">상품등록</a><button class="close"></button></li>
+                    <li><a href="#" class="on">상품카테고리</a><button class="close"></button></li>
                 </ul>
                 <div class="tit_main">
-                    <h2>상품등록</h2>
+                    <h2>상품카테고리</h2>
                     <div class="right">
                         <button class="pt">등록하기</button> 
                     </div>
@@ -104,21 +104,14 @@
                         <div class="grp_form" style="flex:1">
                             <h3>기본 정보</h3>
                             <div class="cont">
-                                <p class="tit vat">상품 이미지</p>
-                                <div class="grp_img">
-                                    <img src="../resource/images/img_temp.svg" alt="">
-                                    <button>이미지 등록</button>
-                                </div>
-                            </div>
-                            <div class="cont">
-                                <p class="tit">이름</p>
+                                <p class="tit">카테고리명</p>
                                 <input type="text">
                             </div>
                             <div class="cont">
                                 <p class="tit vat">설명</p>
                                 <textarea name="" id=""></textarea>
                             </div>
-                            <div class="cont bb">
+                            <div class="cont">
                                 <p class="tit vat">밴드플래그</p>
                                 <ul class="list_btn_chk">
                                     <li><label for="chk01-1"><input type="checkbox" name="" id="chk01-1" checked>BEST</label></li>
@@ -128,14 +121,46 @@
                                     <li><label for="chk01-5"><input type="checkbox" name="" id="chk01-5">NEW</label></li>
                                 </ul>
                             </div>
-                            <h4>수량 정보</h4>
-                            <div class="cont">
-                                <p class="tit">최소 수량</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">최대 수량</p>
-                                <input type="text">
+                            <h3>카테고리 상품 목록</h3>
+                            <div>
+                                <ul class="list_cate">
+                                    <li>
+                                        <span class="ico_menu"></span>
+                                        <div>
+                                            <p>해태제과 고향만두 1.8kg, 1개</p>
+                                            <ul>
+                                                <li>별칭 : </li>
+                                                <li>가격 :  19,750</li>
+                                                <li>POS CODE : </li>
+                                            </ul>
+                                        </div>
+                                        <label class="ipt_check">
+                                            <input type="checkbox" name="" id="">
+                                            <span></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <span class="ico_menu"></span>
+                                        <div>
+                                            <p>해태제과 고향만두 1.8kg, 1개</p>
+                                            <ul>
+                                                <li>별칭 : </li>
+                                                <li>가격 :  19,750</li>
+                                                <li>POS CODE : </li>
+                                            </ul>
+                                        </div>
+                                        <label class="ipt_check">
+                                            <input type="checkbox" name="" id="">
+                                            <span></span>
+                                        </label>
+                                    </li>
+                                </ul>
+                                <div class="list_cate_btn">
+                                    <button class="black">상품추가</button>
+                                    <div class="right">
+                                        <button>선택삭제</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="grp_form" style="flex:1">
@@ -182,7 +207,7 @@
                                     <li><label for="chk02-7"><input type="checkbox" name="" id="chk02-7">토</label></li>
                                     <li><label for="chk02-8"><input type="checkbox" name="" id="chk02-8">일</label></li>
                                 </ul>
-                            </div>
+                            </div> 
                             <div class="cont bt0">
                                 <p class="tit">안내 메시지</p>
                                 <input type="text" placeholder="판매 기간이 아닐 경우 안내 메시지">
@@ -226,23 +251,24 @@
                             </div>
                         </div>
                         <div class="grp_form" style="flex:1">
-                            <h3>가격 정보</h3>
+                            <h3>카테고리 타입</h3>
                             <div class="cont">
-                                <p class="tit">가격</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">면세가격</p>
-                                <input type="text">
-                            </div>
-                            <div class="cont">
-                                <p class="tit">세금 구분</p>
+                                <p class="tit">타입</p>
                                 <select name="" id="">
                                     <option value="">부가세 포함</option>
                                     <option value="">부가세 포함</option>
                                     <option value="">부가세 포함</option>
                                     <option value="">부가세 포함</option>
                                 </select>
+                            </div>
+                            <div class="cont">
+                                <p class="tit">연관된 상품</p>
+                                <p>000</p>
+                            </div>
+                            <h3>카테고리 순서 설정</h3>
+                            <div class="cont">
+                                <p class="tit">순서</p>
+                                <input type="text">
                             </div>
                             <h3>기타 설정</h3>
                             <div class="cont">
@@ -258,6 +284,107 @@
                 </div>
             </div>
         </div>
+        <div class="popup on" style="width:560px;">
+            <div class="pop_header">
+                <h2>상품 선택</h2>
+            </div>
+            <div class="pop_cont">
+                <div class="grp_form sch">
+                    <div class="cont">
+                        <div class="grp_flex">
+                            <input type="text" name="" id="" style="" placeholder="상품을 검색하세요.">
+                            <button class="btn_sch">검색하기</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_board">
+                    <table class="tac">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="chk01" id="chk01">
+                                        <label for="chk01"></label>
+                                    </div>
+                                </th>
+                                <th>상품명</th>
+                                <th>별칭</th>
+                                <th>가격</th>
+                                <th>POS CODE</th>
+                                <th>수정일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="chk01" id="chk02">
+                                        <label for="chk02"></label>
+                                    </div>
+                                </td>
+                                <td>그가농 무항생제 1+등급<br>
+                                    초란 15구, 1개</td>
+                                <td>---</td>
+                                <td>10,000</td>
+                                <td>---</td>
+                                <td>21일<br>
+                                    [2024.05.09]</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="chk01" id="chk02">
+                                        <label for="chk02"></label>
+                                    </div>
+                                </td>
+                                <td>그가농 무항생제 1+등급<br>
+                                    초란 15구, 1개</td>
+                                <td>---</td>
+                                <td>10,000</td>
+                                <td>---</td>
+                                <td>21일<br>
+                                    [2024.05.09]</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="chk01" id="chk02">
+                                        <label for="chk02"></label>
+                                    </div>
+                                </td>
+                                <td>그가농 무항생제 1+등급<br>
+                                    초란 15구, 1개</td>
+                                <td>---</td>
+                                <td>10,000</td>
+                                <td>---</td>
+                                <td>21일<br>
+                                    [2024.05.09]</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="grp_check">
+                                        <input type="checkbox" name="chk01" id="chk02">
+                                        <label for="chk02"></label>
+                                    </div>
+                                </td>
+                                <td>그가농 무항생제 1+등급<br>
+                                    초란 15구, 1개</td>
+                                <td>---</td>
+                                <td>10,000</td>
+                                <td>---</td>
+                                <td>21일<br>
+                                    [2024.05.09]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="pop_footer">
+                <button class="btn_cm gray">닫기</button>
+                <button class="btn_cm">확인</button>
+            </div>
+        </div>
+        <div class="dim"></div>
     </div>
 </body>
 

@@ -118,7 +118,7 @@
                                 <p class="tit vat">설명</p>
                                 <textarea name="" id=""></textarea>
                             </div>
-                            <div class="cont bb">
+                            <div class="cont">
                                 <p class="tit vat">밴드플래그</p>
                                 <ul class="list_btn_chk">
                                     <li><label for="chk01-1"><input type="checkbox" name="" id="chk01-1" checked>BEST</label></li>
@@ -128,8 +128,8 @@
                                     <li><label for="chk01-5"><input type="checkbox" name="" id="chk01-5">NEW</label></li>
                                 </ul>
                             </div>
-                            <h4>수량 정보</h4>
-                            <div class="cont">
+                            <h3>수량 정보</h3>
+                            <div class="cont bb0">
                                 <p class="tit">최소 수량</p>
                                 <input type="text">
                             </div>
@@ -146,13 +146,13 @@
                                     <span>숨김 여부(숨김처리(현재는 카테고리에만 적용됨))</span>
                                 </label>
                             </div>
-                            <div class="cont">
+                            <div class="cont bb0">
                                 <label class="tog_chk" for="chk_tog02">
                                     <input type="checkbox" name="" id="chk_tog02">
                                     <span>판매가능시간 사용함</span>
                                 </label>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont bb0">
                                 <p class="tit">판매 시작 시간</p>
                                 <select name="" id="">
                                     <option value="">오전 12:00</option>
@@ -161,7 +161,7 @@
                                     <option value="">오전 12:00</option>
                                 </select>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont bb0">
                                 <p class="tit">판매 종료 시간</p>
                                 <select name="" id="">
                                     <option value="">오전 12:00</option>
@@ -170,7 +170,7 @@
                                     <option value="">오전 12:00</option>
                                 </select>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont bb0">
                                 <p class="tit vat">밴드플래그</p>
                                 <ul class="list_btn_chk">
                                     <li><label for="chk02-1"><input type="checkbox" name="" id="chk02-1">매일</label></li>
@@ -183,31 +183,31 @@
                                     <li><label for="chk02-8"><input type="checkbox" name="" id="chk02-8">일</label></li>
                                 </ul>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont">
                                 <p class="tit">안내 메시지</p>
                                 <input type="text" placeholder="판매 기간이 아닐 경우 안내 메시지">
                             </div>                            
-                            <div class="cont">
+                            <div class="cont bb0">
                                 <label class="tog_chk" for="chk_tog03">
                                     <input type="checkbox" name="" id="chk_tog03">
                                     <span>판매가능시간 사용함</span>
                                 </label>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont bb0">
                                 <p class="tit">판매 시작 시간<br><span>(연도무시됨)</span></p>
                                 <div class="grp_cal">
                                     <input type="text" name="" id="">
                                     <button></button>
                                 </div>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont bb0">
                                 <p class="tit">판매 종료 시간<br><span>(연도무시됨)</span></p>
                                 <div class="grp_cal">
                                     <input type="text" name="" id="">
                                     <button></button>
                                 </div>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont bb0">
                                 <p class="tit vat">판매 가능 요일</p>
                                 <ul class="list_btn_chk">
                                     <li><label for="chk03-1"><input type="checkbox" name="" id="chk03-1">매일</label></li>
@@ -220,7 +220,7 @@
                                     <li><label for="chk03-8"><input type="checkbox" name="" id="chk03-8">일</label></li>
                                 </ul>
                             </div>
-                            <div class="cont bt0">
+                            <div class="cont">
                                 <p class="tit">안내 메시지</p>
                                 <input type="text" placeholder="판매 기간이 아닐 경우 안내 메시지">
                             </div>
@@ -258,6 +258,41 @@
                 </div>
             </div>
         </div>
+        <div class="popup on" style="width:460px;">
+            <div class="pop_header">
+                <h2>이미지 등록</h2>
+            </div>
+            <div class="pop_cont">
+                <div class="box_form">
+                    <div class="grp_form">
+                        <div class="cont">
+                            <p class="tit vat">이미지 선택</p>
+                            <div class="grp_img">
+                                <img src="../resource/images/img_temp.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <p class="tit">이미지 이름</p>
+                            <input type="text">
+                        </div>
+                        <div class="cont">
+                            <p class="tit">이미지 타입</p>
+                            <select name="" id="">
+                                <option value="">상품 이미지</option>
+                                <option value="">상품 이미지</option>
+                                <option value="">상품 이미지</option>
+                                <option value="">상품 이미지</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pop_footer">
+                <button class="btn_cm gray">닫기</button>
+                <button class="btn_cm">등록</button>
+            </div>
+        </div>
+        <div class="dim"></div>
     </div>
 </body>
 
